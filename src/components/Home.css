@@ -1,0 +1,36 @@
+.home-page-mdv{
+    width: 100vw;
+    height: 100vh;
+}
+.conical-circle-div{
+    width: 60vw;
+    background-color: #fff;
+    float: left;
+}
+  .conical-circle{
+    border-radius: 0% 0% 100% 0%;
+    width: 55vw;
+    height: 85vh;
+    background: rgba(255, 238, 222, 1);
+    
+    
+  }
+
+
+.home-page-image{
+    width: 38vw;
+    background-color:#fff;
+    float: left;
+}
+.imagefirst{
+    height: 65vh;
+    width: 35vw;
+    margin-top: 30px;
+}
+.tag-lanta{
+    padding-top: 12%;
+    margin-left:15% ;
+    width: 60%;
+    font-size: 5vh;
+    text-decoration: none;
+}
