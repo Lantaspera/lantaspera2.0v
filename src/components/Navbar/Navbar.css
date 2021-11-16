@@ -8,14 +8,25 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 75px;
+    height: 60px;
     background-color: #fff;
     color: rgba(16, 137, 212, 1);
 
 }
  
 .logo{
-    font-size: 30px;
+
+
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+
+    
 }
 
 .nav-links{
@@ -30,7 +41,7 @@
 .contact,
 .about{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
     color: rgba(64, 82, 99, 1);
     padding: 10px 20px;
     margin: 0 10px;
