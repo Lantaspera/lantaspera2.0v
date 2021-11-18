@@ -34,15 +34,19 @@ function Home() {
   return (
     <div className="home-page-main">
 
-      <Row lg={6} className="first-part-landingpage">
-        <span className="circle-dot"></span>
-        <Col lg={6} >
-          <Col xs={12} className="tag-lanta">Welcome To Lantaspera <br /> Most Powerfull <br /> SaaS Solution </Col>
-          <Col xs={12} className="caption-lanta">Lantaspera is designed with your customers in mind, <br /> so you can track and analyze all your data in<br /> one central location. There are no limits to <br /> how you can look at your data.</Col>
-        </Col>
-
+      <Row  className="first-part-landingpage">
+        
+        
+      
+          <Col  className="text-col-first" xs={12} lg={3}>
+          <h2 className="tag-lanta">Welcome To Lantaspera <br /> Most Powerfull <br /> SaaS Solution </h2>
+          <p className="caption-lanta">Lantaspera is designed with your customers in mind, <br /> so you can track and analyze all your data in<br /> one central location. There are no limits to <br /> how you can look at your data.</p>
+          </Col>
+        
+      <Col xs={12} lg={9}><img className="first-image-lanta" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1635942105/image_1_o6nkna.jpg" />  </Col>
       </Row>
-      <Row lg={6} className="frist-image-row"> <img className="first-image-lanta" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1635942105/image_1_o6nkna.jpg" /><span className="circle-dot2"></span>  </Row>
+     
+      
 
       <Row>
         <Col xs={12}> <h2 className="heading-stag">Integrated solutions designed for small business.</h2> </Col>
