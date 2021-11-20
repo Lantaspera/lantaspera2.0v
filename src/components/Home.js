@@ -9,6 +9,7 @@ import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 
+
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -49,51 +50,15 @@ function Home() {
       
 
       <Row>
-        <Col xs={12}> <h2 className="heading-stag">Integrated solutions designed for small business.</h2> </Col>
-        <Col className="service-section">
-          <Carousel draggable={false} responsive={responsive} infinite={true} autoPlay={true} arrows={false} axis={'vertical'}>
+        <Col xs={12} lg={12}> <h2 className="heading-stag">Integrated solutions designed for small business.</h2> </Col>
+        <Col xs={12} lg={12} className="service-section">
+       
 
 
-            <div className="profiles">
-              <div className="pro-pic">
-                <img src="https://res.cloudinary.com/lanta/image/upload/v1635942105/image_1_o6nkna.jpg" className="profile-img" />
 
 
-                <div className="profile-details">
-                  <h3 className="profile-details1" >web developement </h3>
-                  <p className="profile-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-
-                </div>
-              </div>
-            </div>
-
-            <div className="profiles">
-              <div className="pro-pic">
-                <img src="https://res.cloudinary.com/lanta/image/upload/v1635942105/image_1_o6nkna.jpg" className="profile-img" />
-
-                <div className="profile-details">
-                  <h3 className="profile-details1" >Marketing </h3>
-                  <p className="profile-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
 
 
-                </div>
-              </div>
-
-            </div>
-
-            <div className="profiles">
-              <div className="pro-pic">
-                <img src="https://res.cloudinary.com/lanta/image/upload/v1635942105/image_1_o6nkna.jpg" className="profile-img" />
-
-
-                <div className="profile-details">
-                  <h3 className="profile-details1" >Designers</h3>
-                  <p className="profile-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-
-                </div>
-              </div>
-            </div>
-          </Carousel>;
         </Col>
       </Row>
       <Row className="about-discription-sectn">
