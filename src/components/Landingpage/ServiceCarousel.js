@@ -11,11 +11,13 @@ const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
-        items: 5
+        items: 5,
+        slidesToSlide:5
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 3
+        items: 3,
+        slidesToSlide:3
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -30,8 +32,13 @@ const responsive = {
 function ServiceCarousel() {
     return (
         <div>
-
-            <Carousel draggable={false} responsive={responsive} infinite={true} autoPlay={true} arrows={false} slidesToSlide={3} >
+            
+            <Container className="section-two">
+  <Row>
+    <Col> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
+  </Row>
+  </Container>
+            <Carousel draggable={false} responsive={responsive} infinite={true} autoPlay={true} arrows={false}  >
 <Container className="secnd-section-crsl">
                 <Row xs={1} md={1}>
                     <Col><Image className="section2-img" src="https://res.cloudinary.com/lanta/image/upload/v1633713713/3456379_q3hwof.jpg" roundedCircle /></Col>
@@ -83,7 +90,7 @@ function ServiceCarousel() {
 
 </Container>
 
-            </Carousel>;
+            </Carousel>
 
            
 

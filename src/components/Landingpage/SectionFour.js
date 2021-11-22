@@ -8,6 +8,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 function SectionFour() {
     return (
         <div className="secionfour-m">
+            <Container>
             <Row>
                 <Col><h1 className="sectn4-heading">Amazing Features</h1></Col>
             </Row>
@@ -37,7 +38,7 @@ function SectionFour() {
 
                     </Row></Col>
             </Row>
-
+</Container>
         </div>
     )
 }

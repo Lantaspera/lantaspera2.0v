@@ -10,7 +10,7 @@ const Navbar = () => {
     const [isMobile, setIsMobile]=useState(false);
     return (
         <nav className="navbar">
-            <h3 className="logo">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></h3>
+            <h3 className="logo">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637585929/logo2_xvcg2d.png" fluid /></h3>
             <ul className={isMobile ? "nav-links-mobile":"nav-links"}
             onClick={()=>setIsMobile(false)}>
                 <Link to="/" className="home">

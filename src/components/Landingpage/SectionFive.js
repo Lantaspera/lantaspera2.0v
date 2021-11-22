@@ -30,7 +30,7 @@ function SectionFive() {
   return (
     <div className="sctn5-maindiv">
 
-      
+
       <Container xs={1} md={1} className="sctn5-container">
       
         
@@ -83,10 +83,8 @@ function SectionFive() {
 </Carousel>;
         </Row>
       </Container>
-      <Row xs={1} >
-      <Col><img className="sctn5-image-cs" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1637217209/sergey-zolkin-_UeY8aTI6d0-unsplash_1_g7eucc.png" />
-      </Col>
-      </Row>
+    
+      
     </div>
 
   )

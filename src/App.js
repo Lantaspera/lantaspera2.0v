@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
+
     <Router>
       <Navbar />
 
