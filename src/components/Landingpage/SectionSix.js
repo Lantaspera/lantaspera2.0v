@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button'
 function SectionSix() {
     return (
       <div>
+       
           <Container>
               <Row xs={1} md={1}>
                   <Col><h1 className="sctnsix-heading">Contact Us</h1></Col>
@@ -17,6 +18,7 @@ fringilla auctor In eleifend maximus nisi sed vulputate</p></Col>
               <Row xs={1} md={2}  className="sectn6-from">
     <Col><img className="sectn6-img" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1637564706/image_4_uzqmo4.png" /></Col>
     <Col>
+    <Container>
     <Form>
   <Row className="mb-3">
     <Form.Group as={Col} controlId="formGridEmail">
@@ -68,10 +70,12 @@ fringilla auctor In eleifend maximus nisi sed vulputate</p></Col>
    Send Message
   </Button>
 </Form>
+</Container>
     </Col>
 
   </Row>
           </Container>
+         
       </div>
     )
 }

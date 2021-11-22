@@ -23,14 +23,11 @@
     font-size: 15px;
 
 }
-.sctn5-maindiv{
-    position: relative;
-}
+
 .sctn5-container{
-    position: absolute;
+    
  margin-top: 3vw;
 }
-.sctn5-image-cs{
-   margin-left: 2.5vw;
-    
+.sctn5-maindiv{
+background-color: cornflowerblue;
 }

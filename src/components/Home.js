@@ -8,6 +8,7 @@ import SectionFour from './Landingpage/SectionFour';
 import SectionFive from './Landingpage/SectionFive';
 import SectionSix from './Landingpage/SectionSix';
 import SectionSeven from './Landingpage/SectionSeven';
+import SectionImage from './Landingpage/SectionImage';
 
 
 
@@ -16,23 +17,21 @@ import SectionSeven from './Landingpage/SectionSeven';
 function Home() {
   return (
     <div className="home-page-main">
-
+<Container fluid>
 <SectionOne/>
      
-<Container className="section-two">
-  <Row>
-    <Col> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
-  </Row>
+
  <ServiceCarousel/>
- </Container>
+
 <SectionThree/>
 
 <SectionFour/>
 <SectionFive/>
+{/* <SectionImage/> */}
 <SectionSix/>
 <SectionSeven/>
 
-
+</Container>
     </div>
   )
 }
