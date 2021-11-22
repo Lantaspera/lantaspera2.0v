@@ -1,28 +1,36 @@
+.home-page-main{
+  width: 100%;
+ 
+}
+  
+  .heading-sectn2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3vw;
+  }
+  
+ 
+  
+  
+    /* margin-left: 4.5%; */
+
+   /* position: relative; */
+   
+  
+ /* }
+ /* .first-image-lanta{
+   /* margin-left:12.5% ; */
+   /* width: 45%;  */
+
+ /* } */ 
+/* .text-col-first{
+   float: left;
+   margin-top: 5%;
+
+} */
 
   
-   
-   .tag-lanta{
-    font-size: 3vw;
-    font-style: normal;
-    font-weight: 700;
-    
- 
-   }
-   .caption-lanta{
-  
-    font-size: 1.5vw;
-    font-style: normal;
-    font-weight: 400;
-    
-   color: rgba(64, 82, 99, 1);
-   margin-top: 2.5%;
-   margin-bottom: 3.5%;
- 
-   
-    
-   }
-  
-   .circle-dot{
+   /* .circle-dot{
     height: 25px;
     width: 25px;
     background-color: rgb(255, 44, 44);
@@ -140,21 +148,5 @@
     position: relative;
     text-align: center;
     color: white;
-  }
-  .first-part-landingpage{
-     margin-left: 4.5%;
-     width: 100vw;
-    position: relative;
-   
-  }
-  .first-image-lanta{
-    margin-left:12.5% ;
-    width: 45%; 
- 
-  }
- .text-col-first{
-    float: left;
-    margin-top: 5%;
-
- }
- 
+  } */
+  

@@ -1,0 +1,32 @@
+.sctn7-footer-main{
+    background: rgba(244, 210, 211, 0.2);
+    margin-top: 2vw;
+
+    
+}
+.sctn7-img{
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+.sctn7-subheading-1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sctn7-content{
+    margin-top: 5vw;
+}
+.sctn7-subtags{
+color: rgba(130, 143, 153, 1);
+font-size: 15px;
+}
+.sctn7-footertag{
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: rgba(130, 143, 153, 1);
+    font-size: 15px;
+}
+.sctn7-logotag{
+    color: rgba(130, 143, 153, 1);
+    font-size: 15px;
+}

@@ -1,0 +1,19 @@
+.sectn3-img{
+    width: 100%;
+    margin-top: 3vw;
+}
+.sectn3-heading{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5vw;
+}
+.sectn3-tagline{
+    color: rgba(124, 133, 149, 1);
+    font-size: 15px;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+.about-cntnt-para{
+    margin-top: 1vw;
+    color: rgba(124, 133, 149, 1);
+}
