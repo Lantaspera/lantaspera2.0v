@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom'
 import "./Navbar.css"
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
-
+import Image from 'react-bootstrap/Image'
 
 const Navbar = () => {
 
     const [isMobile, setIsMobile]=useState(false);
     return (
         <nav className="navbar">
-            <h3 className="logo">Lantaspera</h3>
+            <h3 className="logo">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></h3>
             <ul className={isMobile ? "nav-links-mobile":"nav-links"}
             onClick={()=>setIsMobile(false)}>
                 <Link to="/" className="home">

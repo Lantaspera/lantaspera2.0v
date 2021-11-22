@@ -1,0 +1,22 @@
+.secnd-section-crsl{
+    width: 300px;
+    margin-top: 5vw;
+}
+.section2-img{
+    width: 200px;
+    height: 200px; 
+    margin-left: 2%;
+    
+  }
+  .section2-details1{
+    padding-left: 12%;
+    font-size:22px;
+    font-weight: 600;
+    margin-top: 1vw;
+
+  }
+  .section2-details2{
+   color: rgba(124, 133, 149, 1);
+   font-size: 16px;
+   margin: 1vw;
+  }

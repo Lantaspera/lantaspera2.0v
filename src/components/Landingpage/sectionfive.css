@@ -1,0 +1,36 @@
+.sctn5-mainheading{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+.sctn5-subsection{
+    background: rgba(245, 237, 237, 0.4);
+    width: 250px;
+    margin-top: 2vw;
+    padding-left: 2vw;
+    
+
+}
+.sctn5-sublogo{
+    margin-left: 2vw;
+}
+.sctn5-name-founder{
+    font-size: 18px;
+    font-weight: 650;
+}
+.sctn5-designation{
+    font-size: 15px;
+
+}
+.sctn5-maindiv{
+    position: relative;
+}
+.sctn5-container{
+    position: absolute;
+ margin-top: 3vw;
+}
+.sctn5-image-cs{
+   margin-left: 2.5vw;
+    
+}
