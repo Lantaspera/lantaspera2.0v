@@ -1,3 +1,16 @@
+.sctn5-heading{
+    font-size: 40px;
+    font-weight: 700;
+   margin-left: 15vw;
+}
+.sctn5-qoution{
+    margin-left: 7vw;
+}
+.sctn5-headingtag{
+    font-size: 18px;
+    margin-left: 15vw;
+}
+
 .sctn5-mainheading{
     font-size: 28px;
     font-weight: 500;
@@ -5,29 +18,36 @@
     color: #fff;
 }
 .sctn5-subsection{
-    background: rgba(245, 237, 237, 0.4);
-    width: 250px;
-    margin-top: 2vw;
-    padding-left: 2vw;
+   
+    width: 290px;
+    margin-top: 1vw;
+    padding-left: 1.5vw;
+    background: #FFFFFF;
+border: 1px solid #7C8595;
+box-sizing: border-box;
+border-radius: 4px;
     
 
 }
 .sctn5-sublogo{
-    margin-left: 2vw;
+    width: 100px;
+    margin-top: 1vw;
+ 
+}
+.sctn5-smallquote{
+    width: 12px;
 }
 .sctn5-name-founder{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 650;
+    color: rgba(237, 28, 36, 1);
 }
 .sctn5-designation{
-    font-size: 15px;
+    font-size: 12px;
 
 }
 
 .sctn5-container{
-    
- margin-top: 3vw;
-}
-.sctn5-maindiv{
-background-color: cornflowerblue;
+  
+ margin-top: 5vw;
 }

@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    margin-top: 2vw;
+   
 }
 .sctnfsix-tagline{
     text-align: center;
@@ -14,4 +14,16 @@
 }
 .sectn6-img{
     width: 100%;
+   margin-left: -3vw;
+}
+.sctnsix-maindiv{
+    margin-top: 6vw;
+}
+.sctn6-button{
+    background: #1EA59A;
+    border-radius: 4px;
+font-size: small;
+}
+.sctn6-button:hover{
+    background-color: rgba(237, 28, 36, 1);
 }

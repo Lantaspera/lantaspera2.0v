@@ -9,7 +9,7 @@ function SectionSix() {
     return (
       <div>
        
-          <Container>
+          <Container className="sctnsix-maindiv">
               <Row xs={1} md={1}>
                   <Col><h1 className="sctnsix-heading">Contact Us</h1></Col>
                   <Col><p className="sctnfsix-tagline">Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum mauris sit amet arcu
@@ -56,17 +56,14 @@ fringilla auctor In eleifend maximus nisi sed vulputate</p></Col>
       </Form.Select>
     </Form.Group>
 
-    <Form.Group as={Col} controlId="formGridZip">
-      <Form.Label>Pin</Form.Label>
-      <Form.Control />
-    </Form.Group>
+    
   </Row>
 
   <Form.Group className="mb-3" id="formGridCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
   </Form.Group>
 
-  <Button variant="success" type="submit">
+  <Button className="sctn6-button" type="submit">
    Send Message
   </Button>
 </Form>

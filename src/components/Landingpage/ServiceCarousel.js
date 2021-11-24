@@ -4,7 +4,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from 'react-bootstrap/Image'
 import { Row, Col, Container } from 'react-bootstrap';
-
+import Card from 'react-bootstrap/Card'
+import LanguageIcon from '@mui/icons-material/Language';
 
 
 const responsive = {
@@ -37,62 +38,32 @@ function ServiceCarousel() {
   <Row>
     <Col> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
   </Row>
+
   </Container>
-            <Carousel draggable={false} responsive={responsive} infinite={true} autoPlay={true} arrows={false}  >
-<Container className="secnd-section-crsl">
-                <Row xs={1} md={1}>
-                    <Col><Image className="section2-img" src="https://res.cloudinary.com/lanta/image/upload/v1633713713/3456379_q3hwof.jpg" roundedCircle /></Col>
-                    <Col> <h3 className="section2-details1" >Designers </h3></Col>
-                    <Col> <p className="section2-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
-                </Row>
+            {/* <Carousel draggable={false} responsive={responsive} infinite={true} autoPlay={true} arrows={false}  >
+     
 
-</Container>
-<Container className="secnd-section-crsl">
-                <Row xs={1} md={1}>
-                    <Col><Image className="section2-img" src="https://res.cloudinary.com/lanta/image/upload/v1633713713/3456379_q3hwof.jpg" roundedCircle /></Col>
-                    <Col> <h3 className="section2-details1" >Marketing </h3></Col>
-                    <Col> <p className="section2-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
-                </Row>
+            </Carousel> */}
 
-</Container>
-<Container className="secnd-section-crsl">
-                <Row xs={1} md={1}>
-                    <Col><Image className="section2-img" src="https://res.cloudinary.com/lanta/image/upload/v1633713713/3456379_q3hwof.jpg" roundedCircle /></Col>
-                    <Col> <h3 className="section2-details1" >web developement </h3></Col>
-                    <Col> <p className="section2-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
-                </Row>
+            <Row>
+    <Col>
+    <Card style={{ width: '18rem' }}>
+   
 
-</Container>
-
-
-<Container className="secnd-section-crsl">
-                <Row xs={1} md={1}>
-                    <Col><Image className="section2-img" src="https://res.cloudinary.com/lanta/image/upload/v1633713713/3456379_q3hwof.jpg" roundedCircle /></Col>
-                    <Col> <h3 className="section2-details1" >Desi </h3></Col>
-                    <Col> <p className="section2-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
-                </Row>
-
-</Container>
-<Container className="secnd-section-crsl">
-                <Row xs={1} md={1}>
-                    <Col><Image className="section2-img" src="https://res.cloudinary.com/lanta/image/upload/v1633713713/3456379_q3hwof.jpg" roundedCircle /></Col>
-                    <Col> <h3 className="section2-details1" >Ma </h3></Col>
-                    <Col> <p className="section2-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
-                </Row>
-
-</Container>
-<Container className="secnd-section-crsl">
-                <Row xs={1} md={1}>
-                    <Col><Image className="section2-img" src="https://res.cloudinary.com/lanta/image/upload/v1633713713/3456379_q3hwof.jpg" roundedCircle /></Col>
-                    <Col> <h3 className="section2-details1" >web </h3></Col>
-                    <Col> <p className="section2-details2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
-                </Row>
-
-</Container>
-
-            </Carousel>
-
-           
+  <Card.Body>
+  
+ <Col><LanguageIcon/></Col>
+    <Card.Title className="sctn2-cardheading">Web development</Card.Title>
+    <Card.Text  className="sctn2-cardtext">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    </Card.Text>
+ <Col><a className="sctn2-atag">Learn more</a></Col>
+  </Card.Body>
+</Card>
+    
+    </Col>
+  
+  </Row>
 
         </div>
     )
