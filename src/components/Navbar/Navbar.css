@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     
+ position: sticky;
 }
  
 .navbar{
@@ -11,6 +13,8 @@
     height: 60px;
     background-color: #fff;
     color: rgba(16, 137, 212, 1);
+    position: sticky;
+   
 
 }
  
@@ -43,8 +47,14 @@ margin-top: 1vw;
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
+text-decoration: none;
+
     
 }
+.home:hover,
+.services:hover,
+.contact:hover,
+.about:hover{ color: red;}
 
 .mobile-menu-icon{
     display: none;
