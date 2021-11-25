@@ -7,12 +7,12 @@ function SectionSeven() {
     return (
         <div className="sctn7-footer-main"  >
             <Container >
-                <Row xs={1} md={4}>
+                <Row xs={1} md={3}>
                     <Col className="sctn7-img">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid />
                     <p className="sctn7-logotag">Aenean lacus enim Praesent congue praesent viverra interdum maximus lobortis.</p>
                     </Col>
                     <Col className="sctn7-content">
-                        <Row xs={2} md={2} >
+                        <Row xs={3} md={3} >
                             <Col><h1 className="sctn7-subheading-1">Services</h1>
                                 <p className="sctn7-subtags">Web Design</p>
                                 <p className="sctn7-subtags">Lorem Test</p>
@@ -24,6 +24,13 @@ function SectionSeven() {
                                 <p className="sctn7-subtags">Feature</p>
                                 <p className="sctn7-subtags">Faq</p>
                                 <p className="sctn7-subtags">Contact Us</p>
+
+                            </Col>
+                            <Col><h1 className="sctn7-subheading-1">Legal</h1>
+                                <p className="sctn7-subtags">Terms & Conditions</p>
+                                <p className="sctn7-subtags">Privacy policy</p>
+                                <p className="sctn7-subtags">Customers</p>
+                                <p className="sctn7-subtags">Pricing</p>
 
                             </Col>
                         </Row>
