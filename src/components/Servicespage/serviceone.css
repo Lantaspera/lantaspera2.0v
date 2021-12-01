@@ -1,0 +1,49 @@
+.srvc1-red-tag{
+  margin-right: 2vw;
+    font-size: 18px;
+ ;
+  
+    
+}
+.srvc1-redline-img{
+ margin-left: 2vw;
+    color:rgba(237, 28, 36, 1);
+    width: 8%;
+}
+.srvc1-head1-sctn{
+    text-align: start;
+    margin-top: 2vw;
+    
+    
+}
+.srvc1-red-heading{
+  color: rgba(237, 28, 36, 1);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top:3vw;
+}
+.srvc1-head-1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.srvc1-head-2{
+    font-size: 55px;
+    font-weight: 700;
+    color: red;
+}
+.srvc1-para-1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1vw;
+}
+.srvc1-cntnt-para{
+    margin-top: 2vw;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.srvc1-first-img{
+    border-radius: 10px;
+    margin-top: 5vw;
+    margin-left: 6vw;
+}

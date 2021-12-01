@@ -1,0 +1,63 @@
+.abt1-first-img{
+margin-top: 6vw;
+margin-left: 8vw;
+    border-radius: 5%;}
+   
+.abt1-red-heading{
+    color: rgba(237, 28, 36, 1);
+    font-size: 18px;
+    font-weight: 700;
+
+
+   
+
+
+}
+.abt1-big-heading{
+    font-size: 55px;
+    font-weight: 650;
+
+   
+}
+
+
+.abt1-sec-mdiv{
+    margin-top: 6vw;
+    margin-left: -2vw;
+}
+.abt1-red-tag{
+  
+    font-size: 18px;
+    margin-right: 2vw;
+  
+    
+}
+.abt1-redline-img{
+    margin-left: 1vw;
+    color:rgba(237, 28, 36, 1);
+    width: 8%;
+
+    
+}
+.abt1-main-content{
+    font-size: 20px;
+    font-weight: 400;
+   color: rgba(0, 0, 0, 1);
+   margin-top: 2vw;
+}
+.abt1-foundername{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+.abt1-ftag{
+    margin-left: 1vw;
+    font-weight: 500;
+    font-size: 18px;
+}
+.abt1-head1-sctn{
+    text-align: start;
+    margin-top: 2vw;
+    
+}

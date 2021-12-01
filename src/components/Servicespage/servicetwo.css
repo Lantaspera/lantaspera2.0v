@@ -1,0 +1,34 @@
+.srvc2-frst-heading{
+  color: rgba(237, 28, 36, 1);
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 8vw;
+}
+.srvc2-scnd-heading{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 2vw;
+}
+.srvc2-first-img{
+    margin-top: 4vw;
+    margin-left: 2vw;
+}
+.srvc2-button1{
+    background: #F1F1F1;
+    height: 70px;
+  font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    border: none;
+  margin-top: 3vw;
+  margin-left: 2vw;
+
+
+}
+.srvc2-button1:hover{
+    background: #FF2244;
+}
+.srvc2-button2{
+    width: 400px;
+   
+    
+}

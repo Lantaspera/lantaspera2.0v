@@ -1,0 +1,28 @@
+.abt2-mainsctn{
+    background: rgba(255, 239, 240, 1);
+    margin-top: 10vw;
+    padding-bottom: 3vw;
+
+}
+.abt2-main-heading{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 2vw;
+    
+}
+.abt2-colone{
+    background: rgba(255, 255, 255, 1);
+    margin-left: 2vw;
+    width: 350px;
+    height: 200px;
+    margin-top: 2vw;
+
+
+
+}
+.abt2-sctn2{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+}

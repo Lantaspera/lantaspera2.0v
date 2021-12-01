@@ -1,0 +1,40 @@
+.abt4-frstrow{
+    margin-top: 8vw;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+.abt4-mrow{
+    margin-top: 5vw;
+}
+.abt4-card-m{
+    width: 555px;
+    height: 520px;
+  border: 1px solid rgba(196, 196, 196, 1);
+}
+.abt4-card-cntnt1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+.abt4-card-cntnt{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+    
+}
+.abt4-card-text{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 2vw;
+    text-align: start;
+}
+.abt4-scnd-img{
+    width: 12px;
+    height: 12px;
+    background: #ED1C24;
+    border-radius: 2px;
+    margin-left: 5vw;
+}
