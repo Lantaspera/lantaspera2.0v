@@ -26,16 +26,22 @@ margin-left: 8vw;
     margin-left: -2vw;
 }
 .abt1-red-tag{
-  
+  margin-right: 2vw;
     font-size: 18px;
-    margin-right: 2vw;
+ ;
   
     
 }
 .abt1-redline-img{
-    margin-left: 1vw;
+ margin-left: 2vw;
     color:rgba(237, 28, 36, 1);
     width: 8%;
+}
+.abt1-head1-sctn{
+    text-align: start;
+    margin-top: 2vw;
+    
+    
 
     
 }

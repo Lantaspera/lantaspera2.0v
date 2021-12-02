@@ -21,15 +21,13 @@ function AboutOne() {
             <Col ><h1 className="abt1-red-heading">KNOW MORE ABOUT SHOP</h1></Col>
             <Col > <h1 className="abt1-big-heading">Trusted web services provider</h1></Col>
 
-            <Row className="abt1-head1-sctn">
-                <Col xs={1} md={1} ><h1 className="abt1-redline-img">|</h1></Col>
-                <Col  xs={11}  md={11}><p className="abt1-red-tag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor gjkjmdjm cfgjghhjm fxthsgjn fgjj fjygjgh fgjdyj</p></Col>
-            </Row>
+           
+            <Row className="srvc1-head1-sctn">
+                            <Col xs={1} md={.5} ><h1 className="srvc1-redline-img">|</h1></Col>
+                            <Col xs={11} md={11.5}><p className="srvc1-red-tag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor gjkjmdjm cfgjghhjm fxthsgjn fgjj fjygjgh fgjdyj</p></Col>
+                        </Row>
 
-            {/* <Col >   <h1 className="abt1-head1-sctn">
-                        <span className="abt1-redline-img" >|</span>
-                        <span className="abt1-red-tag"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
-                </h1></Col> */}
+          
 
                
                 <Col >  <p className="abt1-main-content" >sellers who aspire to be good, do good, and spread goodness. We democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality content.</p>
