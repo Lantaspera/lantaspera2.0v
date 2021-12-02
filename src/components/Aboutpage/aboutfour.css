@@ -8,7 +8,7 @@
     margin-top: 5vw;
 }
 .abt4-card-m{
-    width: 555px;
+    width: 100%;
     height: 520px;
   border: 1px solid rgba(196, 196, 196, 1);
 }
@@ -37,4 +37,8 @@
     background: #ED1C24;
     border-radius: 2px;
     margin-left: 5vw;
+   
+}
+.abt4-first-img{
+    margin-top: 2vw;
 }

@@ -1,0 +1,85 @@
+.cntct1-red-hd{
+    color: rgba(237, 28, 36, 1);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5vw;
+}
+.cntct1-mhd-1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.cntct1-mhd-2{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(237, 28, 36, 1);
+}
+.cntct1-tagline{
+    font-size: 16px;
+    font-weight: 500;
+}
+.cntct1-icon-div{
+    margin-top: 3vw;
+}
+
+
+.cntct1-tagline-f{
+    color: rgba(130, 143, 153, 1);
+    font-size: 17px;
+}
+
+.cntct1-addrs{
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.cntct1-addrs-sub{
+    font-size: 17px;
+    font-weight: 400;
+}
+.cntact1-form-mdiv{
+    background: linear-gradient(223.26deg, #ED1C24 -5.58%, rgba(131, 31, 231, 0.49) 135.72%);
+    width: 100%;
+    height: 560px;
+    margin-top: 7vw;
+}
+.cntact1-form-details{
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 55%;
+    height: 75%;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+}
+.cntact1-form-txt{
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 80%;
+    height: 70%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.cntact1-form-btn{
+    background: #ED1C24;
+    width: 20%;
+    height: 3%;
+    text-align: center;
+    padding-bottom:  30px;
+    margin-left: 2.5vw;
+    margin-top: 1vw;
+    border: none;
+}
+.cntact1-from-shd{
+    font-size: 20px;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+.cntact1-from-mhd{
+    margin-left: 2vw;
+    font-size: 40px;
+    font-weight: 450;
+}

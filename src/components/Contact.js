@@ -1,9 +1,12 @@
 import React from 'react'
+import ContactOne from './Contactpage/ContactOne'
+import SectionSeven from './Landingpage/SectionSeven'
 
 function Contact() {
     return (
         <div>
-            Contact
+           <ContactOne/> 
+           <SectionSeven/>
         </div>
     )
 }
