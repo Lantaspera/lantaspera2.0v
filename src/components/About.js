@@ -6,13 +6,14 @@ import AboutTwo from './Aboutpage/AboutTwo'
 import SectionSeven from './Landingpage/SectionSeven'
 import AboutThree from './Aboutpage/AboutThree'
 import AboutFour from './Aboutpage/AboutFour'
+import TopCurve from './Aboutpage/TopCurve'
 
 
 function About() {
     return (
         <div>
        <Container fluid>
-
+         <TopCurve/>
            <AboutOne/>
            <AboutTwo/>
            <AboutThree/>
