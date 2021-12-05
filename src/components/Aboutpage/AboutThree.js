@@ -44,7 +44,7 @@ function AboutThree() {
                         </Card>
                     </Col>
                 </Row>
-                <Row className="abt3-thrdrow" xs={1} md={4}>
+                <Row className="abt3-thrdrow" xs={1} md={3}>
     <Col><Card className="abt3-card-mdiv" >
                             <Card.Img className="abt3-cardimage" variant="top" src="https://res.cloudinary.com/lanta/image/upload/v1633623597/gagananpic_ubhixq.jpg" />
                             <Card.Body>
@@ -70,7 +70,10 @@ function AboutThree() {
                             </Card.Body>
                         </Card></Col>
 
-                        <Col><Card className="abt3-card-mdiv" >
+                      
+  </Row>
+  <Row className="abt3-thrdrow" xs={1} md={3}>
+    <Col><Card className="abt3-card-mdiv" >
                             <Card.Img className="abt3-cardimage" variant="top" src="https://res.cloudinary.com/lanta/image/upload/v1633623597/gagananpic_ubhixq.jpg" />
                             <Card.Body>
                                 <Card.Title className="abt3-desntn-tag">// Co-Fonder //</Card.Title>
@@ -78,6 +81,24 @@ function AboutThree() {
                                 <h1 className="abt3-membrname">Gagana Karpoorachalil</h1>
                             </Card.Body>
                         </Card></Col>
+    <Col><Card className="abt3-card-mdiv" >
+                            <Card.Img className="abt3-cardimage" variant="top" src="https://res.cloudinary.com/lanta/image/upload/v1633623597/gagananpic_ubhixq.jpg" />
+                            <Card.Body>
+                                <Card.Title className="abt3-desntn-tag">// Co-Fonder //</Card.Title>
+                                <Card.Title className="abt3-desntn-tag">//Chife Design Officer//</Card.Title>
+                                <h1 className="abt3-membrname">Gagana Karpoorachalil</h1>
+                            </Card.Body>
+                        </Card></Col>
+    <Col><Card className="abt3-card-mdiv" >
+                            <Card.Img className="abt3-cardimage" variant="top" src="https://res.cloudinary.com/lanta/image/upload/v1633623597/gagananpic_ubhixq.jpg" />
+                            <Card.Body>
+                                <Card.Title className="abt3-desntn-tag">// Co-Fonder //</Card.Title>
+                                <Card.Title className="abt3-desntn-tag">//Chife Design Officer//</Card.Title>
+                                <h1 className="abt3-membrname">Gagana Karpoorachalil</h1>
+                            </Card.Body>
+                        </Card></Col>
+
+                      
   </Row>
  
 

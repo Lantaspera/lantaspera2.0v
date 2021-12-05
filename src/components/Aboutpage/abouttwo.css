@@ -1,22 +1,36 @@
 .abt2-mainsctn{
-    background: rgba(255, 239, 240, 1);
+   
     margin-top: 10vw;
-    padding-bottom: 3vw;
+   
+    background: url(https://res.cloudinary.com/lanta/image/upload/v1638692884/q1_1_sh6cu1.svg);
+    background-size:cover;
+    
+    
+        
+
+}
+.abt2-mainsctn1{
+  
+
+background: rgba(136, 149, 185, 0.4);
 
 }
 .abt2-main-heading{
     text-align: center;
     font-size: 52px;
     font-weight: 700;
-    margin-top: 2vw;
+    margin-top: 2.5vw;
     
 }
 .abt2-colone{
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     margin-left: 2vw;
-    width: 350px;
-    height: 200px;
-    margin-top: 2vw;
+    width: 367px;
+    height: 393px;
+    margin-top: 2.5vw;
 
 
 
@@ -24,5 +38,21 @@
 .abt2-sctn2{
     margin-top: 2vw;
     margin-left: 3vw;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
+}
+.abt2-col-s-head{
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+}
+.abt2-col-s-tag{
+    text-align: start;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.hai{
+  
 }
