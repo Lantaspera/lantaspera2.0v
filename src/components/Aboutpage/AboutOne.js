@@ -32,7 +32,7 @@ function AboutOne() {
                
                 <Col >  <p className="abt1-main-content" >sellers who aspire to be good, do good, and spread goodness. We democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality content.</p>
                 <h5 className="abt1-foundername">Adrid Sadanand </h5>
-                <p className="abt1-ftag">Founder</p>
+                <p className="abt1-ftag">Founder/COO</p>
                 </Col>
             </Col>
            

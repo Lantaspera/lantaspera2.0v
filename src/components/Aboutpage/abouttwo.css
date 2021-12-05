@@ -3,7 +3,7 @@
     margin-top: 10vw;
    
     background: url(https://res.cloudinary.com/lanta/image/upload/v1638692884/q1_1_sh6cu1.svg);
-    background-size:cover;
+    background-size:contain;
     
     
         
@@ -28,7 +28,7 @@ background: rgba(136, 149, 185, 0.4);
     box-sizing: border-box;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     margin-left: 2vw;
-    width: 367px;
+    width: 357px;
     height: 393px;
     margin-top: 2.5vw;
 
