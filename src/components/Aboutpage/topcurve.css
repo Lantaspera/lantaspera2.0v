@@ -1,36 +1,24 @@
-.curved-div {
-    margin-top: 1vw;
-    width: 100%;
- 
-    background-color:black;
-   
+.abt1-red-heading{
+  color: rgba(237, 28, 36, 1);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top:3vw;
 }
-.abt1-topbar2{
-  margin-left: 60vw;
-  z-index: 1;
-  margin-top: -24vw;
-  width: 30%;
- 
-}
-.hello{
-  z-index: -1;
-}
+
+
 .abt1-top-heading{
   font-size: 6vw;
   font-weight: 400;
-  color:#fff;
 
+}
+
+.abt1-top-tag{
+
+  font-size:1.5vw;
  
-  ;
+
 }
 .abt1-top-col{
-  margin-left: 3.5vw;
-  z-index: 2;
-  margin-top: -19vw;
-}
-.abt1-top-tag{
-  width: 50%;
-  font-size:1.5vw;
-  color:#fff;
-
+  margin-top: 7vw;
+  margin-left: 5vw;
 }

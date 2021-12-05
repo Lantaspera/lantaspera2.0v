@@ -31,3 +31,21 @@ font-size: 15px;
     color: rgba(130, 143, 153, 1);
     font-size: 15px;
 }
+.sctn7-adresstag{
+    font-size: 12px;
+    font-weight: 500;
+}
+.sctn7-followtag{
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+    margin-top: .4vw;
+  
+ 
+}
+.sctn7-folo-btn{
+    color: #000;
+    text-align: center;
+    padding: 3px;
+    
+}

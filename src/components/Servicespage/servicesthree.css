@@ -1,0 +1,36 @@
+.srvc3-fst-redhed{
+    font-weight: bold;
+font-size: 14px;
+color: #ED1C24;
+}
+.srvc3-mrow{
+    margin-top: 8vw;
+    margin-left: 8vw;
+    margin-bottom: 8vw;
+}
+.srvc3-fst-black{
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 1vw;
+}
+.srvc3-fst-red{
+    font-size: 52px;
+    font-weight: 700;
+    color: red;
+}
+.srvc3-tagline{
+font-weight: normal;
+font-size: 16px;
+margin-top: 2vw;
+}
+.srvc3-chcksctn{
+    margin-top: 2vw;
+}
+.srvc3-tck-sctn{
+    font-weight: normal;
+font-size: 16px;
+}
+.srvc3-first-img{
+    margin-left: 3vw;
+    margin-top: 3vw;
+}

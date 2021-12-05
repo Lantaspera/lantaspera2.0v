@@ -2,33 +2,55 @@
   color: rgba(237, 28, 36, 1);
   font-size: 17px;
   font-weight: 700;
-  margin-top: 8vw;
+  margin-top: 3vw;
+  text-align: center;
 }
 .srvc2-scnd-heading{
-    font-size: 50px;
+    font-size: 36px;
     font-weight: 700;
-    margin-top: 2vw;
+    margin-top: 1.5vw;
+    text-align: center;
 }
-.srvc2-first-img{
-    margin-top: 4vw;
-    margin-left: 2vw;
+.srvc2-frst-row{
+  background: #E0E4EF;
+  margin-top: 5vw;
 }
-.srvc2-button1{
-    background: #F1F1F1;
-    height: 70px;
-  font-weight: 700;
-    color: rgba(0, 0, 0, 1);
-    border: none;
-  margin-top: 3vw;
-  margin-left: 2vw;
+.srvc2-tagline{
+  text-align: center;
+  font-weight: 600;
+font-size: 16px;
+margin-top: 1vw;
+}
+.srvc2-card-mdiv{
+  background: #FFFFFF;
+border-radius: 10px;
+width: 290px;
+height: 260px;
 
-
+margin-bottom: 3vw;
 }
-.srvc2-button1:hover{
-    background: #FF2244;
+.srvc2-card-icon{
+  margin-top: 2vw;
+  text-align: center;
 }
-.srvc2-button2{
-    width: 400px;
-   
-    
+.srvc2-card-heading{
+  text-align: center;
+  font-weight: bold;
+font-size: 28px;
+margin-top: 1vw;
+}
+.srvc2-card-tagline{
+  text-align: center;
+  font-size: 16px;
+}
+.srvc2-card-mrow{
+margin-bottom: 3vw;
+  margin-top: 1vw;
+  margin-left: 5vw;
+ 
+}
+.srvc2-card-mdiv:hover{
+  color: #FFFFFF;
+  background: linear-gradient(171.78deg, #000000 6.31%, #ED1C24 106.6%);
+border-radius: 10px;
 }

@@ -1,0 +1,40 @@
+.dsg1-head-sctn{
+    
+    background: #ED1C24;
+    height: 185px;
+ 
+
+
+}
+.dsg1-heading{
+ font-size: 48px;
+ font-weight: 700;
+ text-align: center;
+ color: #fff;
+ margin-top: 4vw;
+   
+ 
+}
+.dsg1-subtagline{
+font-weight: 500;
+font-size: 26px;
+text-align: center;
+margin-top: 3vw;
+}
+.dsg1-content-sectn{
+font-weight: normal;
+font-size: 16px;
+color: #797979;
+margin-top: 2vw;
+margin-left: 3vw;
+}
+.dsg1-tct-sctn{
+font-weight: normal;
+font-size: 17px;
+margin-left: 3vw;
+
+}
+.dsg1-image-sectn{
+    margin-left: 5vw;
+    margin-top: 2vw;
+}

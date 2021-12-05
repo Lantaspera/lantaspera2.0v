@@ -1,39 +1,119 @@
 import React from 'react'
 import "./servicetwo.css"
-import { Col, Container, Row, Image,Button } from 'react-bootstrap'
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
+import { Col,  Row,} from 'react-bootstrap'
+import { AiOutlineLine } from "react-icons/ai";
+import Card from 'react-bootstrap/Card'
+import { GiPencilRuler } from "react-icons/gi";
 
 function ServiceTwo() {
     return (
         <div>
-            <Container>
-                <Row xs={1}>
-                    <Col><h1 className="srvc2-frst-heading">// OUR SERVICES</h1></Col>
-                    <Col><h1 className="srvc2-scnd-heading">We Offer a Wide <br /> Variety of IT Services</h1></Col>
+
+            <Row className="srvc2-frst-row" >
+                <Row xs={1} >
+                    <Col><h1 className="srvc2-frst-heading"><AiOutlineLine />OUR SERVICES<AiOutlineLine /></h1></Col>
+                    <Col><h1 className="srvc2-scnd-heading">We Offer a Wide Variety of IT Services</h1></Col>
+                    <Col><p className="srvc2-tagline">It is a long established fact that a reader will be distracted by the readable content <br /> of a page when looking at its layout. It is a long established fact that a reader.</p></Col>
                 </Row>
-                <Row xs={1} md={2}>
-                    <Col md={4} >
-    <ButtonGroup className="srvc2-button2" vertical>
-  <Button className="srvc2-button1">Web Designing</Button>
-  <Button className="srvc2-button1">Web Development</Button>
-  <Button className="srvc2-button1">Web Development</Button>
-  <Button className="srvc2-button1">Web Development</Button>
-  <Button className="srvc2-button1">Web Development</Button>
-  <Button className="srvc2-button1">Web Development</Button>
 
- 
+                <Row className="srvc2-card-mrow" xs={1} md={3} sm={2}>
+<Col>
+                    <Card className="srvc2-card-mdiv" >
 
-</ButtonGroup>
-                    
-                    
-                    </Col>
+                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+
+                        <Card.Body>
+                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
+                            <Card.Text className="srvc2-card-tagline">
+                                It is a long fact that a reader will be distracted by the content of a page
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+</Col>
+                   
+<Col>
+                    <Card className="srvc2-card-mdiv" >
+
+                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+
+                        <Card.Body>
+                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
+                            <Card.Text className="srvc2-card-tagline">
+                                It is a long fact that a reader will be distracted by the content of a page
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+</Col>
+
+<Col>
+                    <Card className="srvc2-card-mdiv" >
+
+                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+
+                        <Card.Body>
+                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
+                            <Card.Text className="srvc2-card-tagline">
+                                It is a long fact that a reader will be distracted by the content of a page
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+</Col>
+
+<Col>
+                    <Card className="srvc2-card-mdiv" >
+
+                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+
+                        <Card.Body>
+                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
+                            <Card.Text className="srvc2-card-tagline">
+                                It is a long fact that a reader will be distracted by the content of a page
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+</Col>
+
+<Col>
+                    <Card className="srvc2-card-mdiv" >
+
+                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+
+                        <Card.Body>
+                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
+                            <Card.Text className="srvc2-card-tagline">
+                                It is a long fact that a reader will be distracted by the content of a page
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+</Col>
+
+<Col>
+                    <Card className="srvc2-card-mdiv" >
+
+                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+
+                        <Card.Body>
+                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
+                            <Card.Text className="srvc2-card-tagline">
+                                It is a long fact that a reader will be distracted by the content of a page
+                            </Card.Text>
+
+                        </Card.Body>
+                    </Card>
+</Col>
 
 
 
-                    <Col md={7} >< Image className="srvc2-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638383552/image_7_kx5hkw.png" fluid /></Col>
 
                 </Row>
-            </Container>
+            </Row>
+
+
 
         </div>
     )
