@@ -6,12 +6,12 @@ import "./topcurve.css"
 function TopCurve() {
     return (
         
-        <div className="curved-div">
+        <div >
             
             
          
 
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <svg className="curved-div" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
   <path fill="red" fill-opacity="1" d="M0,192L60,181.3C120,171,240,149,360,165.3C480,181,600,235,720,234.7C840,235,960,181,1080,165.3C1200,149,1320,171,1380,181.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
 </svg>
 <svg className="abt1-topbar2"  viewBox="0 0 458 360" fill="none" xmlns="http://www.w3.org/2000/svg">
