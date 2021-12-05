@@ -13,7 +13,7 @@ function AboutTwo() {
 
                 <Row className="abt2-mainsctn1" >
                     <Col><h1 className="abt2-main-heading">Why Choose Us.</h1></Col>
-                    <Row className="abt2-sctn2" xs={1} md={3}>
+                    <Row className="abt2-sctn2" xs={1} md={1}>
 
                         <Col className="abt2-colone">
                             <Col><h1 className="abt2-col-s-head"> <TipsAndUpdatesOutlinedIcon sx={{ fontSize: 40 }} /> Our Advanced Design</h1></Col>
@@ -37,8 +37,8 @@ function AboutTwo() {
 
 
 
-                    </Row>
-                    <Row className="abt2-sctn2" xs={1} md={3}>
+               
+                   
 
 <Col className="abt2-colone">
     <Col><h1 className="abt2-col-s-head"> <TipsAndUpdatesOutlinedIcon sx={{ fontSize: 40 }} /> Our Advanced Design</h1></Col>
@@ -67,8 +67,8 @@ function AboutTwo() {
     <Col className="hai">
     </Col>
 </Row>
-                </Row>
-
+                
+</Row>
             </Container>
         </div>
     )
