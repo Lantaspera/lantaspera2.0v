@@ -11,7 +11,7 @@ function TopCurve() {
             
             <Row>
   <Col className="abt1-top-col">
-  <h1 className="abt1-red-heading">EAGER TO KNOW MORE ABOUT OUR COMPANY?</h1>
+  <h1 className="abt1-red-heading">EAGER TO KNOW MORE</h1>
   <Col><h1 className="cntct1-main-hd">
                                 <span className="cntct1-mhd-1">About</span>
                                 <span className="cntct1-mhd-2"> Us</span>

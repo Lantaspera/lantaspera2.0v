@@ -50,16 +50,16 @@ function SectionFive() {
             <Col>
 
 
-              <Container className="sctn5-subsection">
-                <Row>
-                  <Col>
-                    <Col> </Col>
-                    <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
-                    <Col><p className="sctn5-cmpny-tag">To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p></Col>
-                    <Col><h1 className="sctn5-name-founder">Akshay p v</h1></Col>
-                    <Col> <p className="sctn5-designation">CEO,CO-Founder</p></Col>
-                  </Col>
-                </Row>
+            <Container className="sctn5-subsection">
+              <Row>
+                <Col>
+                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></Col>
+                  <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
+                  <Col><p className="sctn5-cmpny-tag">To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p></Col>
+                  <Col><h1 className="sctn5-name-founder">Akshay p v</h1></Col>
+                  <Col> <p className="sctn5-designation">CEO,CO-Founder</p></Col>
+                </Col>
+              </Row>
 
               </Container>
 
