@@ -6,7 +6,8 @@ import TipsAndUpdatesOutlinedIcon from '@mui/icons-material/TipsAndUpdatesOutlin
 
 function AboutTwo() {
     return (
-        <div className="abt2-mainsctn" >
+     
+            <Row className="abt2-mainsctn" >
 
 
                 <Row className="abt2-mainsctn1" >
@@ -67,8 +68,8 @@ function AboutTwo() {
 </Row>
                 
 </Row>
-            
-        </div>
+        </Row>    
+      
     )
 }
 
