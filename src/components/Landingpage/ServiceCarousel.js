@@ -52,8 +52,8 @@ function ServiceCarousel() {
 
                                 <Card.Body>
 
-                                    <Col> <button className="sctn2-icon-div"> </button></Col>
-                                    <Card.Title className="sctn2-cardheading"> Ui/Ux Designing</Card.Title>
+                                    <Col> <button className="sctn2-icon-div"> <GiPencilRuler className="sctn2-icon" size={50} /></button></Col>
+                                    <Card.Title className="sctn2-cardheading">Automation  </Card.Title>
                                     <Card.Text className="sctn2-cardtext">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                                     </Card.Text>

@@ -1,9 +1,10 @@
 import React from 'react'
 import "./servicetwo.css"
-import { Col,  Row,} from 'react-bootstrap'
+import { Col, Row, } from 'react-bootstrap'
 import { AiOutlineLine } from "react-icons/ai";
 import Card from 'react-bootstrap/Card'
 import { GiPencilRuler } from "react-icons/gi";
+import { Link } from 'react-router-dom';
 
 function ServiceTwo() {
     return (
@@ -17,95 +18,95 @@ function ServiceTwo() {
                 </Row>
 
                 <Row className="srvc2-card-mrow" xs={1} md={3} sm={2}>
-<Col>
-                    <Card className="srvc2-card-mdiv" >
+                    <Col>
+                        <Card className="srvc2-card-mdiv" >
 
-                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+                            <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
 
-                        <Card.Body>
-                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
-                            <Card.Text className="srvc2-card-tagline">
-                                It is a long fact that a reader will be distracted by the content of a page
-                            </Card.Text>
+                            <Card.Body>
+                                <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
+                                <Card.Text className="srvc2-card-tagline">
+                                    It is a long fact that a reader will be distracted by the content of a page
+                                </Card.Text>
 
-                        </Card.Body>
-                    </Card>
-</Col>
-                   
-<Col>
-                    <Card className="srvc2-card-mdiv" >
+                            </Card.Body>
+                        </Card>
+                    </Col>
 
-                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+                    <Col>
+                        <Card className="srvc2-card-mdiv">
 
-                        <Card.Body>
-                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
-                            <Card.Text className="srvc2-card-tagline">
-                                It is a long fact that a reader will be distracted by the content of a page
-                            </Card.Text>
+                            <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
 
-                        </Card.Body>
-                    </Card>
-</Col>
+                            <Card.Body>
+                                <Card.Title className="srvc2-card-heading">Web Development</Card.Title>
+                                <Card.Text className="srvc2-card-tagline">
+                                    It is a long fact that a reader will be distracted by the content of a page
+                                </Card.Text>
 
-<Col>
-                    <Card className="srvc2-card-mdiv" >
+                            </Card.Body>
+                        </Card>
+                    </Col>
 
-                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+                    <Col>
+                        <Card className="srvc2-card-mdiv" >
 
-                        <Card.Body>
-                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
-                            <Card.Text className="srvc2-card-tagline">
-                                It is a long fact that a reader will be distracted by the content of a page
-                            </Card.Text>
+                            <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
 
-                        </Card.Body>
-                    </Card>
-</Col>
+                            <Card.Body>
+                                <Card.Title className="srvc2-card-heading">App Development</Card.Title>
+                                <Card.Text className="srvc2-card-tagline">
+                                    It is a long fact that a reader will be distracted by the content of a page
+                                </Card.Text>
 
-<Col>
-                    <Card className="srvc2-card-mdiv" >
+                            </Card.Body>
+                        </Card>
+                    </Col>
 
-                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+                    <Col>
+                        <Card className="srvc2-card-mdiv" >
 
-                        <Card.Body>
-                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
-                            <Card.Text className="srvc2-card-tagline">
-                                It is a long fact that a reader will be distracted by the content of a page
-                            </Card.Text>
+                            <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
 
-                        </Card.Body>
-                    </Card>
-</Col>
+                            <Card.Body>
+                                <Card.Title className="srvc2-card-heading">Graphic Design</Card.Title>
+                                <Card.Text className="srvc2-card-tagline">
+                                    It is a long fact that a reader will be distracted by the content of a page
+                                </Card.Text>
 
-<Col>
-                    <Card className="srvc2-card-mdiv" >
+                            </Card.Body>
+                        </Card>
+                    </Col>
 
-                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+                    <Col>
+                        <Card className="srvc2-card-mdiv" >
 
-                        <Card.Body>
-                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
-                            <Card.Text className="srvc2-card-tagline">
-                                It is a long fact that a reader will be distracted by the content of a page
-                            </Card.Text>
+                            <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
 
-                        </Card.Body>
-                    </Card>
-</Col>
+                            <Card.Body>
+                                <Card.Title className="srvc2-card-heading">Digital Market</Card.Title>
+                                <Card.Text className="srvc2-card-tagline">
+                                    It is a long fact that a reader will be distracted by the content of a page
+                                </Card.Text>
 
-<Col>
-                    <Card className="srvc2-card-mdiv" >
+                            </Card.Body>
+                        </Card>
+                    </Col>
 
-                        <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
+                    <Col>
+                        <Card className="srvc2-card-mdiv" >
 
-                        <Card.Body>
-                            <Card.Title className="srvc2-card-heading">Web Design</Card.Title>
-                            <Card.Text className="srvc2-card-tagline">
-                                It is a long fact that a reader will be distracted by the content of a page
-                            </Card.Text>
+                            <Col className="srvc2-card-icon"> <GiPencilRuler className="sctn2-icon" size={50} /></Col>
 
-                        </Card.Body>
-                    </Card>
-</Col>
+                            <Card.Body>
+                                <Card.Title className="srvc2-card-heading">Social Media Campaign</Card.Title>
+                                <Card.Text className="srvc2-card-tagline">
+                                    It is a long fact that a reader will be distracted by the content of a page
+                                </Card.Text>
+
+                            </Card.Body>
+                        </Card>
+                    </Col>
 
 
 
