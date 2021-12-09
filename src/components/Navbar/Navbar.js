@@ -10,7 +10,7 @@ import "./Navbar.css"
 function NavbarTab() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
+            <Navbar collapseOnSelect expand="lg" bg="#fff" variant="light" fixed="top">
   <Container>
   <Navbar.Brand  >
   <svg width="217" height="43" viewBox="0 0 217 43" fill="none" xmlns="http://www.w3.org/2000/svg">

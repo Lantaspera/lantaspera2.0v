@@ -2,7 +2,6 @@ import React from 'react'
 import "./servicecarousel.css"
 import {Link} from 'react-router-dom'
 import "react-multi-carousel/lib/styles.css";
-
 import { Row, Col, Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card'
 import { AiOutlineCodeSandbox } from "react-icons/ai";
@@ -24,9 +23,9 @@ function ServiceCarousel() {
 
             </Container>
 
-            <Container  >
+            <Container data-aos="fade-up"  >
                 <Row xs={1} md={3} >
-                    <Col data-aos="flip-left">
+                    <Col d>
                     <Row>
                         <Col>
                             <Card className="sctn2-card-div">
@@ -48,7 +47,7 @@ function ServiceCarousel() {
                         </Col>
 
                     </Row></Col>
-                    <Col data-aos="flip-left">
+                    <Col >
                     <Row>
                         <Col>
                             <Card className="sctn2-card-div">
@@ -68,7 +67,7 @@ function ServiceCarousel() {
                         </Col>
 
                     </Row></Col>
-                    <Col data-aos="flip-left">
+                    <Col>
                     <Row>
                         <Col>
                             <Card className="sctn2-card-div">
@@ -90,7 +89,7 @@ function ServiceCarousel() {
                     </Row></Col>
                 </Row>
                 <Row xs={1} md={3}>
-                    <Col data-aos="flip-left">
+                    <Col >
                     <Row>
                         <Col>
                             <Card className="sctn2-card-div">
@@ -110,7 +109,7 @@ function ServiceCarousel() {
                         </Col>
 
                     </Row></Col>
-                    <Col data-aos="flip-left"><Row>
+                    <Col ><Row>
                         <Col>
                             <Card className="sctn2-card-div">
 
@@ -129,7 +128,7 @@ function ServiceCarousel() {
                         </Col>
 
                     </Row></Col>
-                    <Col data-aos="flip-left">
+                    <Col >
                     <Row>
                         <Col>
                             <Card className="sctn2-card-div">
