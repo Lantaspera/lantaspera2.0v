@@ -1,8 +1,8 @@
 .tag-lanta{
-    font-size: 40px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 7vw;
+    margin-top: 8vw;
   
    }
     
@@ -18,3 +18,9 @@
      width: 100%;
      margin-top:2vw;
    }
+.sctn1-svg-imgrect{
+  width: 115%;
+}
+.section-one{
+  margin-top: 6vw;
+}

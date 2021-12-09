@@ -1,11 +1,18 @@
-import React from 'react'
+import{ React} from 'react'
 import { Col, Container, Row,Image } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
+import Accordion from 'react-bootstrap/Accordion'
 import "./aboutfour.css"
+import TipsAndUpdatesOutlinedIcon from '@mui/icons-material/TipsAndUpdatesOutlined'
+
+
 
 function AboutFour() {
+  
     return (
         <div>
+
+
+
             <Container>
 
                 <Row >
@@ -14,20 +21,69 @@ function AboutFour() {
 
 
             <Row className="abt4-mrow" xs={1} md={2}>
-    <Col>
-    <Card className="abt4-card-m" >
-  <Card.Body>
-    <Card.Title className="abt4-card-cntnt1">How to Designing < Image className="abt4-scnd-img" src="https://res.cloudinary.com/lanta/image/upload/v1638358306/Vector_cxi3g2.png" fluid /></Card.Title>
-    <Card.Title className="abt4-card-cntnt">How to Designing < Image className="abt4-scnd-img" src="https://res.cloudinary.com/lanta/image/upload/v1638358306/Vector_cxi3g2.png" fluid /></Card.Title>
-    <Card.Title className="abt4-card-cntnt">How to Designing < Image className="abt4-scnd-img" src="https://res.cloudinary.com/lanta/image/upload/v1638358306/Vector_cxi3g2.png" fluid /></Card.Title>
-    <Card.Title className="abt4-card-cntnt">How to Designing < Image className="abt4-scnd-img" src="https://res.cloudinary.com/lanta/image/upload/v1638358306/Vector_cxi3g2.png" fluid /></Card.Title>
-    <Card.Title className="abt4-card-cntnt">Are my details secured?</Card.Title>
-    <Card.Text className="abt4-card-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. Gravida in fermentum et sollicitudin ac orci phasellus. Facilisis gravida neque convallis a cras semper. Non arcu risus quis varius quam quisque id.
-    </Card.Text>
+    <Col className="abt4-que-mcol" >
+
+    <Accordion  defaultActiveKey="0" flush>
+  <Accordion.Item  eventKey="0">
+    <Accordion.Header><h1 className="abt4-accdtion-head" >How to Designing ?</h1></Accordion.Header>
+    <Accordion.Body>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="1">
+    <Accordion.Header><h1 className="abt4-accdtion-head" >How to Designing ?</h1></Accordion.Header>
+    <Accordion.Body>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="2">
+    <Accordion.Header><h1 className="abt4-accdtion-head" >How to Designing ?</h1></Accordion.Header>
+    <Accordion.Body>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="3">
+    <Accordion.Header><h1 className="abt4-accdtion-head" >How to Designing ?</h1></Accordion.Header>
+    <Accordion.Body>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </Accordion.Body>
+  </Accordion.Item>
+ 
   
-  </Card.Body>
-</Card></Col>
+</Accordion>
+
+    
+
+    </Col>
+
+
+
+
+
 
     <Col>< Image className="abt4-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638355869/faq_1_vqnrjz.png" fluid /></Col>
  

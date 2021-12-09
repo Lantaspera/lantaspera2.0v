@@ -7,7 +7,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 function SectionFour() {
     return (
-        <div className="secionfour-m">
+        <div className="secionfour-m"  data-aos="fade-up">
             <Container>
             <Row>
                 <Col><h1 className="sectn4-heading">Amazing Features</h1></Col>

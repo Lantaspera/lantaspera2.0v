@@ -50,7 +50,7 @@ function SectionFive() {
             <Col>
 
 
-            <Container className="sctn5-subsection">
+            <Container className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
                   <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></Col>
@@ -66,7 +66,7 @@ function SectionFive() {
 
 
             </Col>
-            <Col>  <Container className="sctn5-subsection">
+            <Col>  <Container className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
                   <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></Col>
@@ -78,7 +78,7 @@ function SectionFive() {
               </Row>
 
             </Container></Col>
-            <Col>  <Container className="sctn5-subsection">
+            <Col>  <Container className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
                   <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></Col>

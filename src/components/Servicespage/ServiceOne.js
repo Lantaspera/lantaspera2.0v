@@ -7,7 +7,7 @@ import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 function ServiceOne() {
     return (
         <div>
-            <Container>
+            <Container className="srvc1-mdiv">
                 <Row xs={1} md={2}>
                     <Col>
                        <Col> <h1 className="srvc1-red-heading">WELCOME TO OUR COMPANY</h1></Col>

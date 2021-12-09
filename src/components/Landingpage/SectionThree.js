@@ -5,9 +5,9 @@ import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 
 function SectionThree() {
     return (
-        <Container className="sctn3-maindiv">
+        <Container className="sctn3-maindiv" >
     <Row xs={1} md={2}>
-    <Col>
+    <Col >
      <Col><h2 className="sectn3-heading">Discover how we can help you to grow your business fast.</h2></Col>
      <Col><p className="sectn3-tagline">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
      <Col>
@@ -17,7 +17,7 @@ function SectionThree() {
      </Col>
 
     </Col>
-    <Col><img className="sectn3-img" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1636373969/image_2_z1q29b.png" /></Col>
+    <Col data-aos="fade-left"><img data-aos="fade-left" className="sectn3-img" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1638999453/Layer_1_qbmrf5.svg" /></Col>
     
   </Row>
       </Container>
