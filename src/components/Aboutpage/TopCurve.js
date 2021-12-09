@@ -6,17 +6,17 @@ import "./topcurve.css"
 function TopCurve() {
     return (
         
-        <div >
+        <div  className="abt-one-mdiv" >
             
             
             <Row>
   <Col className="abt1-top-col">
-  <h1 className="abt1-red-heading">EAGER TO KNOW MORE</h1>
+  <h1 className="abt1-red-heading">CAST YOUR EYES TO KMOW MORE</h1>
   <Col><h1 className="cntct1-main-hd">
                                 <span className="cntct1-mhd-1">About</span>
                                 <span className="cntct1-mhd-2"> Us</span>
                             </h1></Col>
-                            <Col><p className="cntct1-tagline"> A viberant tech community with a team full of creative thinkers</p></Col>
+                            <Col><p className="cntct1-tagline"> A viberant tech community with futurestic mind set</p></Col>
                             <Col><p className="cntct1-tagline-f">Give us djzdfhbfbhe, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</p></Col>
   </Col>
   <Col><svg className="abt1-topbar2"  viewBox="0 0 458 360" fill="none" xmlns="http://www.w3.org/2000/svg">

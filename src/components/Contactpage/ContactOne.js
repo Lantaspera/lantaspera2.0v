@@ -8,7 +8,7 @@ import AddLocationOutlinedIcon from '@mui/icons-material/AddLocationOutlined';
 
 function ContactOne() {
     return (
-        <div>
+        <div className="cntact-one-mdiv">
             <Container>
                 <Row xs={1} md={2}>
 

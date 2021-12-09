@@ -1,23 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-
-}
 
  
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    background-color: #fff;
-    color: rgba(16, 137, 212, 1);
- 
-   
 
-}
  
 .logo{
 
@@ -31,12 +14,7 @@ margin-top: 1vw;
     
 }
 
-.nav-links{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    width: 60%;
-}
+
 
 .home,
 .services,
@@ -71,53 +49,5 @@ text-decoration: none;
     top: 15px;
     right: 25px;
 
-
-}
-@media screen and (max-width:800px) {
-    .logo{
-        display: flex;
-        position: absolute;
-        top: 15px;
-        left: 35px;
-
-    }
-    .nav-links{
-        display: none;
-
-    }
-    .nav-links-mobile{
-        position: absolute;
-        display: block;
-        list-style: none;
-       background-color:rgba(255, 239, 240, 1);
-
-        left:0;
-        top: 75px;
-        transition: all 0.5s ease-out;
-        width: 100%;
-       
-
-    }
-    .home,
-    .services,
-    .about,
-    .contact{
-        color: rgba(64, 82, 99, 1) ;
-        text-align: center;
-        padding: 32px;
-        width: 100%;
-        transform: all 0.5s ease;
-    }
-    .mobile-menu-icon{
-        display: block;
-        position: absolute;
-        font-size: 30px;
-        color: rgba(64, 82, 99, 1);
-        background-color: #fff;
-        border:none;
-        outline: none;
-        top: 15px;
-        right: 25px;
-    }
 
 }

@@ -11,20 +11,20 @@ function AboutOne() {
    
         return (
 
-            <div>
-                <Container fluid>
-                <Row xs={1} md={3}>
-            <Col>< Image className="abt1-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638173324/image_5_jowfs4.png" fluid /></Col>
+            <div className="abt-one-mdiv">
+                <Container >
+                <Row xs={1} md={2}>
+            <Col md={4}>< Image className="abt1-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638173324/image_5_jowfs4.png" fluid /></Col>
 
-            <Col className="abt1-sec-mdiv" md={6} > 
+            <Col md={6} className="abt1-sec-mdiv"  > 
             
             <Col ><h1 className="abt1-red-heading">KNOW MORE ABOUT SHOP</h1></Col>
             <Col > <h1 className="abt1-big-heading">Trusted web services provider</h1></Col>
 
            
             <Row className="srvc1-head1-sctn">
-                            <Col xs={1} md={.5} ><h1 className="srvc1-redline-img">|</h1></Col>
-                            <Col xs={11} md={11.5}><p className="srvc1-red-tag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor gjkjmdjm cfgjghhjm fxthsgjn fgjj fjygjgh fgjdyj</p></Col>
+                            <Col xs={1}  ><h1 className="srvc1-redline-img">|</h1></Col>
+                            <Col  ><p className="srvc1-red-tag">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor gjkjmdjm cfgjghhjm fxthsgjn fgjj fjygjgh fgjdyj</p></Col>
                         </Row>
 
           

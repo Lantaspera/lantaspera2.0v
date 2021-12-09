@@ -1,6 +1,6 @@
 import React from 'react'
 import "./servicecarousel.css"
-
+import {Link} from 'react-router-dom'
 import "react-multi-carousel/lib/styles.css";
 
 import { Row, Col, Container } from 'react-bootstrap';
@@ -15,18 +15,19 @@ import { MdOutlineAppSettingsAlt } from "react-icons/md";
 
 function ServiceCarousel() {
     return (
-        <div>
+        <div >
 
-            <Container className="section-two">
+            <Container className="section-two" data-aos="fade-up">
                 <Row>
                     <Col> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
                 </Row>
 
             </Container>
 
-            <Container>
-                <Row xs={1} md={3}>
-                    <Col><Row>
+            <Container  >
+                <Row xs={1} md={3} >
+                    <Col data-aos="flip-left">
+                    <Row>
                         <Col>
                             <Card className="sctn2-card-div">
 
@@ -38,14 +39,17 @@ function ServiceCarousel() {
                                     <Card.Text className="sctn2-cardtext">
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                                     </Card.Text>
-                                    <Col className="sctn2-atag"><a >Learn more</a></Col>
+                                    <Col className="sctn2-atag"></Col><Link to="/webdesign">
+                    <li>Learn more</li>
+                </Link>
                                 </Card.Body>
                             </Card>
 
                         </Col>
 
                     </Row></Col>
-                    <Col><Row>
+                    <Col data-aos="flip-left">
+                    <Row>
                         <Col>
                             <Card className="sctn2-card-div">
 
@@ -64,7 +68,8 @@ function ServiceCarousel() {
                         </Col>
 
                     </Row></Col>
-                    <Col><Row>
+                    <Col data-aos="flip-left">
+                    <Row>
                         <Col>
                             <Card className="sctn2-card-div">
 
@@ -85,7 +90,8 @@ function ServiceCarousel() {
                     </Row></Col>
                 </Row>
                 <Row xs={1} md={3}>
-                    <Col><Row>
+                    <Col data-aos="flip-left">
+                    <Row>
                         <Col>
                             <Card className="sctn2-card-div">
 
@@ -104,7 +110,7 @@ function ServiceCarousel() {
                         </Col>
 
                     </Row></Col>
-                    <Col><Row>
+                    <Col data-aos="flip-left"><Row>
                         <Col>
                             <Card className="sctn2-card-div">
 
@@ -123,7 +129,8 @@ function ServiceCarousel() {
                         </Col>
 
                     </Row></Col>
-                    <Col><Row>
+                    <Col data-aos="flip-left">
+                    <Row>
                         <Col>
                             <Card className="sctn2-card-div">
 

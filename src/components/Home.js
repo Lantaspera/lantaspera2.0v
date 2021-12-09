@@ -16,7 +16,7 @@ import SectionSeven from './Landingpage/SectionSeven';
 
 function Home() {
   return (
-    <div className="home-page-main">
+    <div className="home-page-main"  >
 <Container fluid>
 <SectionOne/>
      
