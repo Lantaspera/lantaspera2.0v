@@ -12,8 +12,7 @@ function SectionSix() {
           <Container className="sctnsix-maindiv" >
               <Row xs={1} md={1}>
                   <Col><h1 className="sctnsix-heading">Contact Us</h1></Col>
-                  <Col><p className="sctnfsix-tagline">Vivamus ac nulla ultrices laoreet neque mollis mi morbi elementum mauris sit amet arcu
-fringilla auctor In eleifend maximus nisi sed vulputate</p></Col>
+                  <Col><p className="sctnfsix-tagline">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</p></Col>
               </Row>
               <Row xs={1} md={2}  className="sectn6-from">
     <Col data-aos="fade-right"><img className="sectn6-img" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1637564706/image_4_uzqmo4.png" /></Col>

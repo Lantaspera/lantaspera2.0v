@@ -9,9 +9,9 @@ function SectionOne() {
     <div>
       <Container className="section-one" data-aos="fade-up">
         <Row xs={1} md={2}>
-          <Col> <Col md={6}><h1 className="tag-lanta"><ReactRotatingText color={"black"}
-            items={['Welcome to Lantaspera           The Most Powerfull SaaS Solution', 'Your Smile Is Our Light To Vision', 'Join with us']} /></h1></Col>
-            <Col> <p className="caption-lanta">Lantaspera is designed with your customers in mind, <br /> so you can track and analyze all your data in<br /> one central location. There are no limits to <br /> how you can look at your data.</p></Col>
+          <Col> <Col><h1 className="tag-lanta" data-aos="zoom-in">
+            Welcome to Lantaspera <br/>The Most Powerfull <br/> SaaS Solution</h1></Col>
+            <Col> <p className="caption-lanta" >Lantaspera is designed with your customers in mind, <br /> so you can track and analyze all your data in<br /> one central location. There are no limits to <br /> how you can look at your data.</p></Col>
           </Col>
           <Col >
             <Col className="hai"><svg className="sctn1-svg-imgrect" viewBox="0 0 728 612" fill="none" xmlns="http://www.w3.org/2000/svg">

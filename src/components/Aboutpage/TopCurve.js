@@ -6,20 +6,23 @@ import "./topcurve.css"
 function TopCurve() {
     return (
         
-        <div  className="abt-one-mdiv" >
+        <div  className="abt-one-mdiv" data-aos="zoom-in-down" >
             
             
-            <Row>
-  <Col className="abt1-top-col">
-  <h1 className="abt1-red-heading">CAST YOUR EYES TO KMOW MORE</h1>
+            <Row xs={1}md={2}>
+  <Col md={5} className="abt1-top-col">
+  <h1 className="abt1-red-heading">EAGER TO KNOW MORE</h1>
   <Col><h1 className="cntct1-main-hd">
                                 <span className="cntct1-mhd-1">About</span>
                                 <span className="cntct1-mhd-2"> Us</span>
                             </h1></Col>
-                            <Col><p className="cntct1-tagline"> A viberant tech community with futurestic mind set</p></Col>
-                            <Col><p className="cntct1-tagline-f">Give us djzdfhbfbhe, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</p></Col>
+                            <Col><p className="cntct1-tagline">We are group of techies determined to re-imagine the way we do digital.</p></Col>
+                            <Col><p className="cntct1-tagline-f">
+We are passionate  and love to design, code, write, and explore the boundaries of new cutting edge of tech and creativity.
+Our  workspace is open and free with the warmness of intimacy. We are a fast-paced creative team
+without any chaos or confusion and also perfectionists who don't know when to quit.</p></Col>
   </Col>
-  <Col><svg className="abt1-topbar2"  viewBox="0 0 458 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <Col md={6}><svg className="abt1-topbar2"  viewBox="0 0 460 390" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_447_193)">
 <path d="M234.88 276.932C234.88 273.369 233.464 269.951 230.945 267.432C228.425 264.913 225.008 263.497 221.445 263.497C217.882 263.497 214.465 264.913 211.946 267.432C209.426 269.951 208.011 273.369 208.011 276.932H181.973V355.877H260.918V276.932H234.88Z" fill="#AFB9DF"/>
 <path d="M226.214 174.731C226.261 172.966 225.96 171.208 225.327 169.559C224.695 167.91 223.743 166.403 222.527 165.122C221.311 163.841 219.854 162.813 218.24 162.095C216.626 161.378 214.887 160.986 213.121 160.942C211.356 160.897 209.599 161.202 207.951 161.837C206.303 162.472 204.797 163.426 203.518 164.645C202.239 165.863 201.213 167.321 200.499 168.936C199.784 170.551 199.395 172.291 199.353 174.057L173.323 173.403L171.342 252.323L199.626 253.033C199.63 249.346 201.099 245.812 203.708 243.209C206.318 240.605 209.855 239.144 213.542 239.148C217.228 239.152 220.762 240.621 223.366 243.23C225.97 245.84 227.431 249.377 227.427 253.064C227.427 253.289 227.404 253.508 227.393 253.73L250.262 254.304L252.244 175.384L226.214 174.731Z" fill="#FCB129"/>

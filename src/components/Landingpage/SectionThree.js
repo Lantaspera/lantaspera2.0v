@@ -9,11 +9,12 @@ function SectionThree() {
     <Row xs={1} md={2}>
     <Col >
      <Col><h2 className="sectn3-heading">Discover how we can help you to grow your business fast.</h2></Col>
-     <Col><p className="sectn3-tagline">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p></Col>
+     <Col><p className="sectn3-tagline">We creates more visibility for your business providing a digital storefont.</p></Col>
      <Col>
      <p className="about-cntnt-para"><CheckOutlinedIcon color="error" fontSize="small" />    Build an SEO-Friendly Website.</p>
-            <p className="about-cntnt-para"><CheckOutlinedIcon color="error" fontSize="small" />    Tell Your Brand Story.</p>
-            <p className="about-cntnt-para"><CheckOutlinedIcon color="error" fontSize="small" />    Leverage Social Media Marketing.</p>
+     
+            <p className="about-cntnt-para"><CheckOutlinedIcon color="error" fontSize="small" />   Market  your business through webpresence. </p>
+            <p className="about-cntnt-para"><CheckOutlinedIcon color="error" fontSize="small" />   Conveys your brand story.</p>
      </Col>
 
     </Col>

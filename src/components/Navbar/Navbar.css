@@ -39,15 +39,6 @@ text-decoration: none;
 .about:hover{ color: red;
 }
 
-.mobile-menu-icon{
-    display: none;
-    position: absolute;
-    font-size: 30px;
-   background-color: red;
-    border: none;
-    outline: none;
-    top: 15px;
-    right: 25px;
-
-
+.hai{
+    box-shadow: rgba(237, 28, 36, 1);
 }
