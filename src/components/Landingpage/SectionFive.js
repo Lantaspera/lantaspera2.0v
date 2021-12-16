@@ -53,11 +53,11 @@ function SectionFive() {
             <Container className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
-                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></Col>
+                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1633623605/rdionz_otpa0j.jpg" fluid /></Col>
                   <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
-                  <Col><p className="sctn5-cmpny-tag">To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p></Col>
-                  <Col><h1 className="sctn5-name-founder">Akshay p v</h1></Col>
-                  <Col> <p className="sctn5-designation">CEO,CO-Founder</p></Col>
+                  <Col><p className="sctn5-cmpny-tag">For the purpose of developing webpage for my startup quickly , I was searching for a  developer community . Lantaspera is one of the best  developers I have come across. They are well organised,creative and flexible .</p></Col>
+                  <Col><h1 className="sctn5-name-founder">Dr.Nabeel M Naasar</h1></Col>
+                  <Col> <p className="sctn5-designation">Co-Founder -Rdionz Biomobility</p></Col>
                 </Col>
               </Row>
 
@@ -69,11 +69,11 @@ function SectionFive() {
             <Col>  <Container className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
-                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></Col>
+                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1639409455/Logopit_1633791897439_zaxd3w.png" fluid /></Col>
                   <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
-                  <Col><p className="sctn5-cmpny-tag">To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p></Col>
-                  <Col><h1 className="sctn5-name-founder">Akshay p v</h1></Col>
-                  <Col> <p className="sctn5-designation">CEO,CO-Founder</p></Col>
+                  <Col><p className="sctn5-cmpny-tag">Doing business with Lantaspera is very convenient. The UI they created is visually appealing. Because of their proven excellence we would recommend Lantaspera to any one for creating a customized website.</p></Col>
+                  <Col><h1 className="sctn5-name-founder">Dr.Agney Sadanand</h1></Col>
+                  <Col> <p className="sctn5-designation">Founder - Tortis</p></Col>
                 </Col>
               </Row>
 
@@ -81,11 +81,11 @@ function SectionFive() {
             <Col>  <Container className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
-                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid /></Col>
+                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1633623606/voyiget_bb5afl.png" fluid /></Col>
                   <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
-                  <Col><p className="sctn5-cmpny-tag">To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p></Col>
-                  <Col><h1 className="sctn5-name-founder">Akshay p v</h1></Col>
-                  <Col> <p className="sctn5-designation">CEO,CO-Founder</p></Col>
+                  <Col><p className="sctn5-cmpny-tag">Voyiget is a home automation startup in calicut.Some of my students own this venture.At its budding stage it was very difficult to make a good mobile app at low budget.But they did it with the help of Lantaspera.</p></Col>
+                  <Col><h1 className="sctn5-name-founder">Asst.Pro Paul Mathew</h1></Col>
+                  <Col> <p className="sctn5-designation">Mentor-Voyiget</p></Col>
                 </Col>
               </Row>
 

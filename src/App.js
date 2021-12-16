@@ -11,10 +11,18 @@ import Aos from 'aos';
 import"aos/dist/aos.css";
 import WebDesign from "./components/Servicescontents/WebDesign"
 import NavbarTab from './components/Navbar/Navbar';
+import Webdevelopment from './components/Servicescontents/Webdevelopment';
+import AppDevelopment from './components/Servicescontents/AppDevelopment';
+import GraphicsDesign from './components/Servicescontents/GraphicsDesign';
+import SocialMedia from './components/Servicescontents/SocialMedia';
+import DigitalMarket from './components/Servicescontents/DigitalMarket';
 
 
 
 const App = () => {
+
+ 
+  
   useEffect(() => {
     Aos.init({duration:1500});
   
@@ -47,6 +55,28 @@ const App = () => {
         <Route path="/webdesign" component={WebDesign} exact >
           <WebDesign />
         </Route>
+
+        <Route path="/webdevelopment" component={Webdevelopment} exact >
+          <Webdevelopment/>
+        </Route>
+
+        
+        <Route path="/appdevelopment" component={AppDevelopment} exact >
+          <AppDevelopment/>
+        </Route>
+
+        <Route path="/graphicdesign" component={GraphicsDesign} exact >
+          <GraphicsDesign/>
+        </Route>
+
+        <Route path="/digitalmarket" component={DigitalMarket} exact >
+          <DigitalMarket/>
+        </Route>
+
+        <Route path="/socialmedia" component={SocialMedia} exact >
+          <SocialMedia/>
+        </Route>
+
 
       </Switch>
     </Router>

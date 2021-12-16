@@ -54,3 +54,12 @@ margin-bottom: 3vw;
   background: linear-gradient(171.78deg, #000000 6.31%, #ED1C24 106.6%);
 border-radius: 10px;
 }
+.srvc2-link-tag{
+  text-decoration: none;
+  color: #000000;
+}
+.srvc2-link-tag:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+  
+}

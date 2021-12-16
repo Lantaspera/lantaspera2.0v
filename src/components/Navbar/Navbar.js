@@ -7,10 +7,11 @@ import Container from 'react-bootstrap/Container'
 import {Link} from 'react-router-dom'
 import "./Navbar.css"
 
+
 function NavbarTab() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="#fff" variant="light" fixed="top">
+            <Navbar className="hai" collapseOnSelect   expand="lg" bg="white" variant="light" fixed="top" sticky-top >
   <Container>
   <Navbar.Brand  >
   <svg width="217" height="43" viewBox="0 0 217 43" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -17,7 +17,7 @@ function SectionFour() {
                     <Row xs="auto">
                         <Col>< PeopleOutlineIcon color="info" sx={{ fontSize: 50 }} /></Col>
                         <Col> <h1 className="sub-heading-sectn4"> User Friendly</h1>
-                            <p className="sub-tag-sectn4"> Utise wisi enim nets venias,<br /> quis tation ullamcorper nets <br /> lobotis nisle consequat.</p>
+                            <p className="sub-tag-sectn4"> Provide userfriendly<br /> webservices which enables <br />easy access of information<br /> for your customers.  </p>
                         </Col>
 
                     </Row>
@@ -26,14 +26,14 @@ function SectionFour() {
                 <Col><Row xs="auto">
                         <Col>< LocalAtmIcon color="error" sx={{ fontSize: 50 }} /></Col>
                         <Col> <h1 className="sub-heading-sectn4"> Cost Control</h1>
-                            <p className="sub-tag-sectn4"> Utise wisi enim nets venias,<br /> quis tation ullamcorper nets <br /> lobotis nisle consequat.</p>
+                            <p className="sub-tag-sectn4">  Provide high quality<br />  services   in  easiest<br /> mode  at an affordable<br />  range of cost.</p>
                         </Col>
 
                     </Row></Col>
                 <Col><Row xs="auto">
                         <Col><SettingsOutlinedIcon color="secondary" sx={{ fontSize: 50 }} /></Col>
                         <Col> <h1 className="sub-heading-sectn4">  Accesibility</h1>
-                            <p className="sub-tag-sectn4"> Utise wisi enim nets venias,<br /> quis tation ullamcorper nets <br /> lobotis nisle consequat.</p>
+                            <p className="sub-tag-sectn4">Provide a decent user <br />experience to your valuable<br /> customers and the ability to <br /> access your data easily.</p>
                         </Col>
 
                     </Row></Col>
