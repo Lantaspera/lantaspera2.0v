@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, Image, Button } from 'react-bootstrap'
+import { Col, Container, Row, Button } from 'react-bootstrap'
 import "./contactone.css"
 import Form from 'react-bootstrap/Form'
 import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';

@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import{ React ,useEffect}from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"

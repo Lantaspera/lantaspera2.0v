@@ -11,20 +11,39 @@ function GraphicsDesign() {
               <Col><h1 className="dsg1-heading">GRAPHIC DESIGN</h1></Col>
           </Row>
       <Row>
-          <Col><p className="dsg1-subtagline">Our Web desginig Services ensure<br/>
-that your technologies are implemented efficiently and effectively—<br/>
-the first time.</p></Col>
+          <Col><p className="dsg1-subtagline"> Our expertise uses perfect designs and color <br/>theory for creating fresh communication and 
+visually appealing—<br/> design that evokes good impression in viewers</p></Col>
       </Row>
       <Row xs={1} md={2} sm={1}>
 <Col md={4}>< Image className="dsg1-image-sectn" src="https://res.cloudinary.com/lanta/image/upload/v1639669116/creative-design-designer-man-working_ldtgns.jpg" fluid /></Col>
-<Col  md={6} className="dsg1-cotnt-mdevp">
-<p className="dsg1-content-sectn">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<Col  md={7} className="dsg1-cotnt-mdevp">
+<p className="dsg1-content-sectn">Graphic design is the art of visual communication that combines images, words, and ideas to 
+convey information to audience. It is a way of conveying ideas through visuals and design. 
+Graphic design concept is composed of different fields and specializations. Types of graphic 
+design includes corporate design, marketing and advertising design, Publication design, 
+environmental design, packaging design and motion design.
+Corporate design has to do with the visual identity of a company. Any visual elements that make
+up a brand identity, such as a brand’s logo (made with logo design software), can be associated
+with corporate design.
+Social media graphics, magazine ads, billboards, brochures, email marketing templates, content
+marketing are all examples of marketing and advertising design.
+Publication designers need to work closely with editors and publishers to ensure layouts, 
+typography, and illustrations are tastefully combined producing the best possible end result. 
+Examples of publication graphic designs include books, newspapers, newsletters, magazines, 
+and eBooks.
+Environmental graphic design is the use of visual elements in environments to connect people 
+to those places. Architecture, road signs, signage, event spaces, and wall murals are all 
+examples of environmental design.
+When you buy a new product, it most likely has some form of packaging or visual element such 
+as a label, sticker, or wrapping that is used to prepare the product for distribution or sale. These 
+elements are created by packaging designers.
+Motion graphic design is a subset of graphic design and it’s exactly what it sounds like graphics 
+that are in motion. This can include animation, video games, apps, GIFs, website features, etc.</p>
 <Col>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />React js  </p>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Html </p>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Bootstrap5.1  </p>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> CSS </p>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Tailwind Css </p>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />Adobe Illustrator </p>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />Procreate </p>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Adobe Photoshop </p>
+            
 </Col>
 
 </Col>

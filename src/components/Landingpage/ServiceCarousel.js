@@ -110,7 +110,8 @@ function ServiceCarousel() {
                                         <Col> <button className="sctn2-icon-div"> < GiPencilRuler className="sctn2-icon" size={50} /></button></Col>
                                         <Card.Title className="sctn2-cardheading">Graphic Designt</Card.Title>
                                         <Card.Text className="sctn2-cardtext">
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        Our expertise uses perfect designs and color
+theory for creating fresh communication and.....
                                         </Card.Text>
                                         <Col className="sctn2-atag"><Link className="sctn2-atag" to="/graphicdesign">
                                             Learn more
@@ -132,7 +133,8 @@ function ServiceCarousel() {
                                         <Col> <button className="sctn2-icon-div"> <AiOutlineCloudSync className="sctn2-icon" size={50} /></button></Col>
                                         <Card.Title className="sctn2-cardheading">Digital Market </Card.Title>
                                         <Card.Text className="sctn2-cardtext">
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        Our team experts establishes your online identity,
+build trust  stimulate customer interactivity.....
                                         </Card.Text>
                                         <Col className="sctn2-atag"><Link className="sctn2-atag" to="/digitalmarket">
                                             Learn more
@@ -155,7 +157,8 @@ function ServiceCarousel() {
                                         <Col> <button className="sctn2-icon-div"> <BiMessageRoundedDots className="sctn2-icon" size={50} /></button></Col>
                                         <Card.Title className="sctn2-cardheading">Social Media Campaign</Card.Title>
                                         <Card.Text className="sctn2-cardtext">
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        A social media campaign is a coordinated
+marketing effort to reinforce or assist with a business.....
                                         </Card.Text>
                                         <Col className="sctn2-atag"><Link className="sctn2-atag" to="/socialmedia">
                                             Learn more

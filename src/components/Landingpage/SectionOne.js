@@ -3,7 +3,7 @@ import "./sectionone.css"
 import { Col, Container, Row } from 'react-bootstrap'
 
 
-var ReactRotatingText = require('react-rotating-text');
+
 function SectionOne() {
   return (
     <div>

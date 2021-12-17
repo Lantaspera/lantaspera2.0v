@@ -2,7 +2,7 @@ import{ React} from 'react'
 import { Col, Container, Row,Image } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion'
 import "./aboutfour.css"
-import TipsAndUpdatesOutlinedIcon from '@mui/icons-material/TipsAndUpdatesOutlined'
+
 
 
 
