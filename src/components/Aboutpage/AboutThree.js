@@ -26,7 +26,7 @@ function AboutThree() {
      data-aos-anchor-placement="center-bottom" className="abt3-card-mdiv" >
                             <Card.Img className="abt3-cardimage" variant="top" src="https://res.cloudinary.com/lanta/image/upload/v1639416695/IMG_5114-04_sigys9.jpg" />
                             <Card.Body>
-                                <Card.Title className="abt3-desntn-tag">// Fonder //</Card.Title>
+                                <Card.Title><h1  className="abt3-desntn-tag">//Fonder //</h1></Card.Title>
                                
                                 <h1 className="abt3-membrname">Adrid Sadanand P</h1>
                                 <Card.Title className="abt3-desntn-tag2">COO</Card.Title>

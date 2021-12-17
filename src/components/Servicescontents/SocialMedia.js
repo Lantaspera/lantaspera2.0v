@@ -11,17 +11,25 @@ function SocialMedia() {
               <Col><h1 className="dsg1-heading">SOCIAL MEDIA CAMPAIGN</h1></Col>
           </Row>
       <Row>
-          <Col><p className="dsg1-subtagline">   Our App development services provide well<br/> designed, well featured, eye catching app having great UI, fast—<br/> loading time and high performance quality.</p></Col>
+          <Col><p className="dsg1-subtagline">A social media campaign is a coordinated <br/> marketing effort to reinforce or assist with a business 
+goal—<br/> using one or more social media platforms.</p></Col>
       </Row>
       <Row xs={1} md={2} sm={1}>
 <Col md={4}>< Image className="dsg1-image-sectn" src="https://res.cloudinary.com/lanta/image/upload/v1639668977/structure-social-media-with-colored-icons_kgweg7.jpg" fluid /></Col>
 <Col  md={6}  className="dsg1-cotnt-mdevp">
-<p className="dsg1-content-sectn">Mobile app development is the process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. It is the creation of software intended to run on mobile devices and optimized to take advantage of those products' unique features. These applications can be pre-installed on phones or delivered as web applications using server side or client side processing to provide an application-like experience within a web browser. As part of the development process, mobile user interface(UI) or front end design is also essential in the creation of mobile apps. The mobile back end facilitates data routing, security, authentication, authorization, work off-line and service orchestration. This functionality is supported by a mix of middleware components including mobile app server, mobile backend as a service(MBaaS) and service oriented architecture (SOA) infrastructure. 
+<p className="dsg1-content-sectn"> Common goals for a social media campaigns 
+include getting feedback from users, building email marketing lists, increasing website traffic, 
+improving overall brand engagement, direct driving sales etc.These campaigns are strategically 
+focused, have measurable outcomes, and influence social media followers to feel or act in a 
+certain way. Social media advertising reaches audiences in a low-cost, impactful, and effective 
+way. This is exactly why social media campaigns have become a crucial marketing technique 
+for businesses everywhere. Social media marketing campaigns are a great option for 
+businesses that want to remain relevant and promote their content effectively and efficiently.
 </p>
 <Col>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />React Native  </p>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Type script </p>
-            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Android/ios </p>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />Facebook</p>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Instagram</p>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> Twitter </p>
           
 </Col>
 

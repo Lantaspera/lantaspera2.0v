@@ -2,6 +2,7 @@ import React from 'react'
 import "./servicesthree.css"
 import { Col,  Row, Image,Button } from 'react-bootstrap'
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
+import { Link } from 'react-router-dom';
 
 function ServicesThree() {
     return (
@@ -19,11 +20,11 @@ function ServicesThree() {
                         <Col className="srvc3-chcksctn">
             <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We always ensure to give our best to the  customer.
   </p>
-            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We .
+            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We give professinal support to our clients.
  </p>
-            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />. </p>
+            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We provide a social media platform to make more audience </p>
 
-            <Col> <Button className="srvc3-btn" variant="danger">Get Started Now</Button> </Col>
+            <Col><Link to="/contact"> <Button className="srvc3-btn" variant="danger">Get Started Now</Button></Link> </Col>
            
 </Col>
 
