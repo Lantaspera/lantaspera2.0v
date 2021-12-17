@@ -45,12 +45,12 @@ function SectionFive() {
         <Row xs={1} md={1}>
 
         </Row>
-        <Row xs={1} md={1}>
+        <Row xs={1} md={1} className="sctn5-subsection-row" >
           <Carousel responsive={responsive}>
             <Col>
 
 
-            <Container className="sctn5-subsection" data-aos="zoom-in">
+            <div className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
                   <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1633623605/rdionz_otpa0j.jpg" fluid /></Col>
@@ -61,24 +61,24 @@ function SectionFive() {
                 </Col>
               </Row>
 
-              </Container>
+              </div>
 
 
 
             </Col>
-            <Col>  <Container className="sctn5-subsection" data-aos="zoom-in">
+            <Col>  <div className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
                   <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1639409455/Logopit_1633791897439_zaxd3w.png" fluid /></Col>
                   <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
-                  <Col><p className="sctn5-cmpny-tag">Doing business with Lantaspera is very convenient. The UI they created is visually appealing. Because of their proven excellence we would recommend Lantaspera to any one for creating a customized website.</p></Col>
+                  <Col><p className="sctn5-cmpny-tag">Doing business with Lantaspera is very convenient.More over the UI they created is visually appealing. Because of their proven excellence we would recommend Lantaspera to any one for creating a customized website.</p></Col>
                   <Col><h1 className="sctn5-name-founder">Dr.Agney Sadanand</h1></Col>
                   <Col> <p className="sctn5-designation">Founder - Tortis</p></Col>
                 </Col>
               </Row>
 
-            </Container></Col>
-            <Col>  <Container className="sctn5-subsection" data-aos="zoom-in">
+            </div></Col>
+            <Col>  <div className="sctn5-subsection" data-aos="zoom-in">
               <Row>
                 <Col>
                   <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1633623606/voyiget_bb5afl.png" fluid /></Col>
@@ -89,7 +89,7 @@ function SectionFive() {
                 </Col>
               </Row>
 
-            </Container></Col>
+            </div></Col>
 
           </Carousel>
         </Row>

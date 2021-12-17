@@ -20,6 +20,7 @@
 .sctn5-subsection{
    
     width: 285px;
+    height: 350px;
     margin-top: 1vw;
     padding-left: 1.5vw;
     background: #FFFFFF;
@@ -56,4 +57,8 @@ border-radius: 4px;
 }
 .sctn5-cmpny-tag{
     font-size: 16px;
+    padding: 2px;
+}
+.sctn5-subsection-row{
+    margin-left: 4vw;
 }
