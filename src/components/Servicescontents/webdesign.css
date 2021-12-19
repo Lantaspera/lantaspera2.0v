@@ -1,8 +1,8 @@
 .dsg1-head-sctn{
     
     background: #ED1C24;
-    height: 185px;
- margin-top: 3vw;
+    height: 25%;
+ margin-top: 8vw;
 
 
 }
@@ -11,7 +11,8 @@
  font-weight: 700;
  text-align: center;
  color: #fff;
- margin-top: 4vw;
+ padding: 4vw;
+ 
    
  
 }
@@ -40,4 +41,9 @@ margin-left: 3vw;
 }
 .dsg1-cotnt-mdevp{
     margin-left: 3vw;
+}
+.dsg1-heading-two{
+    text-decoration:  underline red;
+    font-size: 30px;
+   margin-left: 2vw;
 }

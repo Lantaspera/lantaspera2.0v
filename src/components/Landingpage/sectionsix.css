@@ -27,3 +27,6 @@ font-size: small;
 .sctn6-button:hover{
     background-color: rgba(237, 28, 36, 1);
 }
+.sctn6-form-con{
+    margin-top: 1vw;
+}

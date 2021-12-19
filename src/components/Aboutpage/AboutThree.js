@@ -24,7 +24,7 @@ function AboutThree() {
                     <Col>
                         <Card data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" className="abt3-card-mdiv" >
-                            <Card.Img className="abt3-cardimage" variant="top" src="https://res.cloudinary.com/lanta/image/upload/v1639416695/IMG_5114-04_sigys9.jpg" />
+                            <Card.Img className="abt3-cardimage" variant="top" src="https://res.cloudinary.com/lanta/image/upload/v1639912196/20211025_121437-01-01_ns31wr.jpg" />
                             <Card.Body>
                                 <Card.Title><h1  className="abt3-desntn-tag">//Fonder //</h1></Card.Title>
                                

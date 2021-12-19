@@ -10,12 +10,14 @@ import { MdOutlineAppSettingsAlt } from "react-icons/md";
 import { AiOutlineCloudSync } from "react-icons/ai";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import { Container } from '@mui/material';
 
 function ServiceTwo() {
     return (
-        <div>
+        <div  className="srvc2-frst-row">
+          <Container>
 
-            <Row className="srvc2-frst-row" data-aos="fade-up" >
+            <Row data-aos="fade-up" >
                 <Row xs={1} >
                     <Col><h1 className="srvc2-frst-heading"><AiOutlineLine />OUR SERVICES<AiOutlineLine /></h1></Col>
                     <Col><h1 className="srvc2-scnd-heading">We Offer a Wide Variety of IT Services</h1></Col>
@@ -27,7 +29,7 @@ function ServiceTwo() {
                                            
                                        
                         <Card className="srvc2-card-mdiv" ><Link className='srvc2-link-tag'  to="/webdesign">
-
+                        <div className="layer"></div>
                             <Col className="srvc2-card-icon"> <AiOutlineCodeSandbox className="sctn2-icon" size={50} /></Col>
 
                             <Card.Body>
@@ -120,7 +122,7 @@ function ServiceTwo() {
 
                 </Row>
             </Row>
-
+            </Container>  
 
 
         </div>

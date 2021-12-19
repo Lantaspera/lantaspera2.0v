@@ -17,7 +17,7 @@ function SectionSix() {
               <Row xs={1} md={2}  className="sectn6-from">
     <Col data-aos="fade-right"><img className="sectn6-img" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1637564706/image_4_uzqmo4.png" /></Col>
     <Col>
-    <Container  data-aos="fade-left">
+    <Container className='sctn6-form-con'  data-aos="fade-left">
     <Form>
   <Row className="mb-3">
     <Form.Group as={Col} controlId="formGridEmail">
@@ -41,22 +41,10 @@ function SectionSix() {
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
 
-  <Row className="mb-3">
-    <Form.Group as={Col} controlId="formGridCity">
-      <Form.Label>City</Form.Label>
-      <Form.Control />
-    </Form.Group>
-
-    <Form.Group as={Col} controlId="formGridState">
-      <Form.Label>State</Form.Label>
-      <Form.Select defaultValue="Choose...">
-        <option>Choose...</option>
-        <option>...</option>
-      </Form.Select>
-    </Form.Group>
+  
 
     
-  </Row>
+
 
   <Form.Group className="mb-3" id="formGridCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
