@@ -2,10 +2,21 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import "./sectionsix.css"
 import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import emailjs from "emailjs-com"
 
 
 function SectionSix() {
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service_vowbsrc','template_foz5c7w',e.target,'user_Abe5d681GXF6Droviz3mT')
+    .then(res=>{
+        console.log(res);
+        }).catch(err=> console.log(err));
+}
+
+
     return (
       <div>
        
@@ -18,27 +29,27 @@ function SectionSix() {
     <Col data-aos="fade-right"><img className="sectn6-img" alt="#" src="https://res.cloudinary.com/lanta/image/upload/v1637564706/image_4_uzqmo4.png" /></Col>
     <Col>
     <Container className='sctn6-form-con'  data-aos="fade-left">
-    <Form>
+    <Form  onSubmit={sendEmail}>
   <Row className="mb-3">
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>First name</Form.Label>
-      <Form.Control type="string" placeholder="Enter your First name" />
+      <Form.Control type="string" placeholder="Enter your First name" name="fname" />
     </Form.Group>
 
-    <Form.Group as={Col} controlId="formGridPassword">
+    <Form.Group as={Col} >
       <Form.Label>Last name</Form.Label>
-      <Form.Control type="string" placeholder="Enter your Last name" />
+      <Form.Control type="string" placeholder="Enter your Last name"  name="lname"/>
     </Form.Group>
   </Row>
 
-  <Form.Group className="mb-3" controlId="formGridAddress1">
+  <Form.Group className="mb-3" controlId="formGridAddress1" >
     <Form.Label>Email Id</Form.Label>
-    <Form.Control placeholder="john@gmail.com" />
+    <Form.Control placeholder="john@gmail.com" name="emailaddress"/>
   </Form.Group>
 
-  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1" >
     <Form.Label>Message</Form.Label>
-    <Form.Control as="textarea" rows={3} />
+    <Form.Control as="textarea" rows={3} name="fmessage"/>
   </Form.Group>
 
   
@@ -49,10 +60,7 @@ function SectionSix() {
   <Form.Group className="mb-3" id="formGridCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
   </Form.Group>
-
-  <Button className="sctn6-button" type="submit">
-   Send Message
-  </Button>
+  <button  className="sctn6-button" onClick={()=>{ alert('message send sucssesfully'); }}>  Send Message</button>
 </Form>
 </Container>
     </Col>

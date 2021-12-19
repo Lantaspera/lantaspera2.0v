@@ -117,7 +117,7 @@ function ServiceCarousel() {
                                     <Card.Body>
 
                                         <Col> <button className="sctn2-icon-div"> < GiPencilRuler className="sctn2-icon" size={50} /></button></Col>
-                                        <Card.Title className="sctn2-cardheading">Graphic Designt</Card.Title>
+                                        <Card.Title className="sctn2-cardheading">Graphic Design</Card.Title>
                                         <Card.Text className="sctn2-cardtext">
                                             Our expertise uses perfect designs and color
                                             theory for creating fresh communication and.....
