@@ -46,10 +46,27 @@ that are in motion. This can include animation, video games, apps, GIFs, website
             
 </Col>
 
-</Col>
 
+<Col><h1 className="dsg1-heading-two">UI/UX DESIGN</h1></Col>
+<p className="dsg1-content-sectn">The user interface is the graphical layout of an application. It consists of the buttons users click 
+on, the text they read, the images, sliders, text entry fields, and all the rest of the items the user 
+interacts with. User experience is determined by how easy or difficult it is to interact with the 
+user interface elements that the UI designers have created. UX designer decides how the user 
+interface works while the UI designer decides how the user interface looks.</p>
+
+<Col>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />Figma </p>
+            <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />Adobe xd </p>
+            
+            
+</Col>
+</Col>    
       </Row>
+
       <SectionSeven/>
+
+
+      
         </div>
     )
 }

@@ -3,10 +3,12 @@ import "./servicesthree.css"
 import { Col,  Row, Image,Button } from 'react-bootstrap'
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 import { Link } from 'react-router-dom';
+import { Container } from '@mui/material';
 
 function ServicesThree() {
     return (
         <div>
+            <Container>
            <Row  className="srvc3-mrow" xs={1} md={2}>
                <Col >
                <Col><h1 className="srvc3-fst-redhed">HOW WE WORK</h1></Col>
@@ -32,6 +34,7 @@ function ServicesThree() {
                </Col>
                <Col data-aos="fade-left">< Image className="srvc3-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638741383/image_7_1_ienlxk.png" fluid /></Col>
            </Row>
+           </Container>
         </div>
     )
 }

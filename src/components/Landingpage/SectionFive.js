@@ -83,7 +83,7 @@ function SectionFive() {
                 <Col>
                   <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1633623606/voyiget_bb5afl.png" fluid /></Col>
                   <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
-                  <Col><p className="sctn5-cmpny-tag">Voyiget is a home automation startup in calicut.Some of my students own this venture.At its budding stage it was very difficult to make a good mobile app at low budget.But they did it with the help of Lantaspera.</p></Col>
+                  <Col><p className="sctn5-cmpny-tag">Voyiget is a home automation startup in Calicut. Some of my students own this venture.At its budding stage it was very difficult to make a good mobile app at low budget.But they did it with the help of Lantaspera.</p></Col>
                   <Col><h1 className="sctn5-name-founder">Asst.Pro Paul Mathew</h1></Col>
                   <Col> <p className="sctn5-designation">Mentor-Voyiget</p></Col>
                 </Col>

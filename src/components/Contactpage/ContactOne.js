@@ -101,9 +101,13 @@ function ContactOne() {
                                 <Col>
                                     <Form.Select className="cntact1-form-details" defaultValue="Select service type">
                                         <option>Select service type</option>
-                                        <option>web design</option>
-                                        <option>web design</option>
-                                        <option>web design</option>
+                                        <option>Web design</option>
+                                        <option>Web development</option>
+                                        <option>App development</option>
+                                        <option>ui/ux design</option>
+                                        <option>Graphics design</option>
+                                        <option>Digital marketing</option>
+                                        <option>Social media campaign</option>
 
                                     </Form.Select>
                                 </Col>

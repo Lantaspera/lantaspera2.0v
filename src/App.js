@@ -15,6 +15,10 @@ import AppDevelopment from './components/Servicescontents/AppDevelopment';
 import GraphicsDesign from './components/Servicescontents/GraphicsDesign';
 import SocialMedia from './components/Servicescontents/SocialMedia';
 import DigitalMarket from './components/Servicescontents/DigitalMarket';
+import ErrorPage from './components/ERROR/ErrorPage';
+import SectionFive from './components/Landingpage/SectionFive';
+import AboutFour from './components/Aboutpage/AboutFour';
+import AboutTwo from './components/Aboutpage/AboutTwo';
 
 
 
@@ -76,6 +80,21 @@ const App = () => {
           <SocialMedia/>
         </Route>
 
+        <Route path="/errorpage" component={ErrorPage} exact >
+          <ErrorPage/>
+        </Route>
+
+        <Route path="/sectionfive" component={SectionFive} exact >
+          <SectionFive/>
+        </Route>
+
+        <Route path="/faq" component={AboutFour} exact >
+          <AboutFour/>
+        </Route>
+
+        <Route path="/features" component={AboutTwo} exact >
+          <AboutTwo/>
+        </Route>
 
       </Switch>
     </Router>
