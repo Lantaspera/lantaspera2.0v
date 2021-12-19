@@ -1,13 +1,28 @@
-import React from 'react'
+import {React,useState} from 'react'
 import { Col, Container, Row, Button } from 'react-bootstrap'
 import "./contactone.css"
 import Form from 'react-bootstrap/Form'
 import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
-import AddLocationOutlinedIcon from '@mui/icons-material/AddLocationOutlined';
+// import AddLocationOutlinedIcon from '@mui/icons-material/AddLocationOutlined';
+import emailjs from "emailjs-com"
+
 
 function ContactOne() {
+
+    function sendEmail(e){
+        e.preventDefault();
+
+        emailjs.sendForm('service_rxsxsas','template_7gafil8',e.target,'user_Abe5d681GXF6Droviz3mT')
+        .then(res=>{
+            console.log(res);
+            }).catch(err=> console.log(err));
+    }
+    
+
+ 
     return (
+      
         <div className="cntact-one-mdiv">
             <Container>
                 <Row xs={1} md={2}>
@@ -51,7 +66,7 @@ function ContactOne() {
 
                     </Row>
 
-                    <Row className="cntct1-icon-div" xs="auto">
+                    {/* <Row className="cntct1-icon-div" xs="auto">
                             
                             <Col>< AddLocationOutlinedIcon color="error" sx={{ fontSize: 30 }} /></Col>
                             <Col> <h1 className="cntct1-addrs">Office Address</h1>
@@ -61,12 +76,12 @@ function ContactOne() {
                             </Col>
                         
 
-                    </Row>
+                    </Row> */}
 
                     </Col>
                     <Col>
 
-                        <Form className="cntact1-form-mdiv">
+                        <Form className="cntact1-form-mdiv" onSubmit={sendEmail}>
 
                             <Row xs={1}>
                                 <Col> <p className="cntact1-from-shd">Contact form</p></Col>
@@ -80,13 +95,13 @@ function ContactOne() {
                                 <Col>
 
 
-                                    <Form.Control className="cntact1-form-details" type="string" placeholder="First name" />
+                                    <Form.Control className="cntact1-form-details" type="string" placeholder="First name" controlId="firstname" name="firstname" />
 
                                 </Col>
                                 <Col>
 
 
-                                    <Form.Control className="cntact1-form-details" type="string" placeholder=" Last name" />
+                                    <Form.Control className="cntact1-form-details" type="string" placeholder=" Last name"  controlId="lastname"/>
 
                                 </Col>
 
@@ -94,12 +109,12 @@ function ContactOne() {
 
 
                                 <Col>
-                                    <Form.Control className="cntact1-form-details" placeholder="Email Id" />
+                                    <Form.Control className="cntact1-form-details" placeholder="Email Id" controlId="emailid" type="email" name="emailid" />
                                 </Col>
 
 
                                 <Col>
-                                    <Form.Select className="cntact1-form-details" defaultValue="Select service type">
+                                    <Form.Select className="cntact1-form-details" defaultValue="Select service type"  name="service">
                                         <option>Select service type</option>
                                         <option>Web design</option>
                                         <option>Web development</option>
@@ -113,19 +128,17 @@ function ContactOne() {
                                 </Col>
 
                                 <Col>
-                                    <Form.Control className="cntact1-form-txt" as="textarea" rows={3} placeholder="Message" />
+                                    <Form.Control className="cntact1-form-txt" as="textarea" rows={3} placeholder="Message" controlId="message" name="message"  />
                                 </Col>
 
                             </Row>
 
 
 
+   
 
-
-
-                            <Button className="cntact1-form-btn" type="submit">
-                                Send
-                            </Button>
+                <button className="cntact1-form-btn" onClick={()=>{ alert('message send sucssesfully'); }}> Send</button>
+                           
                         </Form></Col>
 
                 </Row>
