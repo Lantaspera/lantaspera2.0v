@@ -7,9 +7,14 @@ import SectionSeven from './Landingpage/SectionSeven'
 import AboutThree from './Aboutpage/AboutThree'
 import AboutFour from './Aboutpage/AboutFour'
 import TopCurve from './Aboutpage/TopCurve'
+import { useEffect } from 'react'
 
 
 function About() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
     return (
         <div>
        <Container fluid>

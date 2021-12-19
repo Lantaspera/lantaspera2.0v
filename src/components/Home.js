@@ -8,6 +8,7 @@ import SectionFour from './Landingpage/SectionFour';
 import SectionFive from './Landingpage/SectionFive';
 import SectionSix from './Landingpage/SectionSix';
 import SectionSeven from './Landingpage/SectionSeven';
+import { useEffect } from 'react'
 
 
 
@@ -15,6 +16,9 @@ import SectionSeven from './Landingpage/SectionSeven';
 
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="home-page-main"  >
 <Container fluid>

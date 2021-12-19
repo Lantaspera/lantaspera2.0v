@@ -3,8 +3,13 @@ import "./webdesign.css"
 import { Col, Image, Row } from 'react-bootstrap'
 import SectionSeven from '../Landingpage/SectionSeven'
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
+import { useEffect } from 'react'
+
 
 function AppDevelopment() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
                <Row className="dsg1-head-sctn">

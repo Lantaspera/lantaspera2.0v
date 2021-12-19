@@ -11,7 +11,7 @@ function SectionSeven() {
         <div className="sctn7-footer-main"  >
             <Container >
                 <Row xs={1} md={3}>
-                    <Col className="sctn7-img">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid />
+                    <Col  className="sctn7-img">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid />
                         <p className="sctn7-logotag">Ingeniously Innovative.</p>
                         {/* <p className="sctn7-adresstag">info@lantaspera.com</p> */}
                         <p className="sctn7-followtag">Follow Us:  </p>
