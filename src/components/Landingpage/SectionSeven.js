@@ -14,8 +14,11 @@ function SectionSeven() {
                     <Col className="sctn7-img">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid />
                         <p className="sctn7-logotag">Ingeniously Innovative.</p>
                         {/* <p className="sctn7-adresstag">info@lantaspera.com</p> */}
-                        <p className="sctn7-followtag">Follow Us:  </p><Button href='https://www.facebook.com/Lantaspera-Technologies-112304664556201/?ref=pages_you_manage' className="sctn7-folo-btn" size="sm" variant="outline-light"><FaFacebook /></Button>{' '} <Button href='https://www.linkedin.com/company/lantaspera-technologies/?viewAsMember=true' className="sctn7-folo-btn" size="sm" variant="outline-light"><FaLinkedin /></Button>{' '}
-                        <Button className="sctn7-folo-btn" size="sm" variant="outline-light"><FaInstagram /></Button>{' '}<Button className="sctn7-folo-btn" size="sm" variant="outline-light"><FaTwitter /></Button>{' '}
+                        <p className="sctn7-followtag">Follow Us:  </p>
+                        <Button href='https://www.facebook.com/Lantaspera-Technologies-112304664556201/?ref=pages_you_manage' className="sctn7-folo-btn" size="sm" variant="outline-light"><FaFacebook /></Button>{' '}
+                        <Button href='https://www.linkedin.com/company/lantaspera-technologies/?viewAsMember=true' className="sctn7-folo-btn" size="sm" variant="outline-light"><FaLinkedin /></Button>{' '}
+                        <Button href='https://www.instagram.com/lantaspera_technologies/' className="sctn7-folo-btn" size="sm" variant="outline-light"><FaInstagram /></Button>{' '}
+                        <Button href='https://twitter.com/lantaspera' className="sctn7-folo-btn" size="sm" variant="outline-light"><FaTwitter /></Button>{' '}
 
                     </Col>
                     <Col md={6} className="sctn7-content">
