@@ -109,7 +109,7 @@ function ContactOne() {
 
 
                                 <Col>
-                                    <Form.Control className="cntact1-form-details" placeholder="Email Id" controlId="emailid" type="email" name="emailid" />
+                                    <Form.Control type="email" className="cntact1-form-details" placeholder="Email Id"  name="emailid" />
                                 </Col>
 
 

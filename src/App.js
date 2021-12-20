@@ -34,11 +34,13 @@ const App = () => {
   return (
 
     <Router>
+      <div>
       <NavbarTab />
+      
 
       <Switch>
 
-        <Route path="/" component={Home} exact >
+        <Route path="/" exact component={Home} exact >
           <Home />
         </Route>
 
@@ -97,6 +99,7 @@ const App = () => {
         </Route>
 
       </Switch>
+      </div>
     </Router>
 
 

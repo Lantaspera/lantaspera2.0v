@@ -44,7 +44,7 @@ function SectionSix() {
 
   <Form.Group className="mb-3" controlId="formGridAddress1" >
     <Form.Label>Email Id</Form.Label>
-    <Form.Control placeholder="john@gmail.com" name="emailaddress"/>
+    <Form.Control placeholder="john@gmail.com" name="emailaddress" type="email"/>
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1" >

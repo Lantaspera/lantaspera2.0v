@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom'
 import "./Navbar.css"
 
 
+
 function NavbarTab() {
     return (
         <div>
@@ -74,6 +75,7 @@ function NavbarTab() {
   </Navbar.Collapse>
   </Container>
 </Navbar>
+
         </div>
     )
 }
