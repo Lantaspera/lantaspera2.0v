@@ -9,6 +9,7 @@ import SectionFive from './Landingpage/SectionFive';
 import SectionSix from './Landingpage/SectionSix';
 import SectionSeven from './Landingpage/SectionSeven';
 import { useEffect } from 'react'
+import SectionStart from './Landingpage/SectionStart';
 
 
 
@@ -21,12 +22,11 @@ function Home() {
   }, [])
   return (
     <div className="home-page-main"  >
-<Container fluid>
+<Container >
+
+
 <SectionOne/>
-     
-
- {/* <ServiceCarousel/> */}
-
+<ServiceCarousel/>
 <SectionThree/>
 
 <SectionFour/>
