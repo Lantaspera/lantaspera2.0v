@@ -7,8 +7,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 function SectionOne() {
   return (
     <div>
-      <Container className="section-one" data-aos="fade-up">
-        <Row xs={1} md={2}>
+      <Container >
+        <Row xs={1} md={2} className="section-one" data-aos="fade-up">
           <Col> <Col><h1 className="tag-lanta" data-aos="zoom-in">
             Welcome to Lantaspera <br/>The Most Powerfull <br/> SaaS Solution</h1></Col>
             <Col> <p className="caption-lanta" >Customer driven customised application development inline with/backing trending technology and innovative ideas. We deliver better solutions to transform your business digitally. Leading SaaS platform to conjure your mesmerising fables and fairy tales.  </p></Col>

@@ -25,7 +25,7 @@ function Home() {
 <SectionOne/>
      
 
- <ServiceCarousel/>
+ {/* <ServiceCarousel/> */}
 
 <SectionThree/>
 
