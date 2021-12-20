@@ -15,19 +15,18 @@ function About() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-    return (
-        <div>
-       <Container fluid>
-         <TopCurve/>
-           <AboutOne/>
-           <AboutTwo/>
-           <AboutThree/>
-           <AboutFour/>
-
-<SectionSeven/>
-           </Container>
-        </div>
-    )
+  return (
+    <div>
+      <Container fluid>
+        <TopCurve />
+        <AboutOne />
+        <AboutTwo />
+        <AboutThree />
+        <AboutFour />
+        <SectionSeven />
+      </Container>
+    </div>
+  )
 }
 
 export default About

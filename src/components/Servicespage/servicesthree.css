@@ -1,11 +1,10 @@
 .srvc3-fst-redhed{
-font-weight: bold;
-font-size: 14px;
-color: #ED1C24;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ED1C24;
 }
 .srvc3-mrow{
     margin-top: 8vw;
-   
     margin-bottom: 8vw;
 }
 .srvc3-fst-black{
@@ -19,16 +18,16 @@ color: #ED1C24;
     color: red;
 }
 .srvc3-tagline{
-font-weight: normal;
-font-size: 16px;
-margin-top: 2vw;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 2vw;
 }
 .srvc3-chcksctn{
     margin-top: 2vw;
 }
 .srvc3-tck-sctn{
     font-weight: normal;
-font-size: 16px;
+    font-size: 16px;
 }
 .srvc3-first-img{
     margin-left: 8vw;

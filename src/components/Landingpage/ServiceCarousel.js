@@ -76,7 +76,7 @@ function ServiceCarousel() {
                             </Col>
 
                         </Row>
-                     </Col>
+                    </Col>
 
                     <Col data-aos="fade-up"
                         data-aos-duration="8000" >
