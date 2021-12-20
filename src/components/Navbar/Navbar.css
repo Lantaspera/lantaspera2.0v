@@ -20,12 +20,12 @@ margin-top: 1vw;
 .services,
 .contact,
 .about{
-    text-decoration: none;
-    font-size: 17px;
-    color: rgba(64, 82, 99, 1);
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
+text-decoration: none;
+font-size: 17px;
+color: rgba(64, 82, 99, 1);
+padding: 10px 20px;
+margin: 0 10px;
+cursor: pointer;
 text-decoration: none;
 
     
@@ -40,5 +40,7 @@ text-decoration: none;
 }
 
 .hai{
-    box-shadow: rgba(237, 28, 36, 1);
+
+box-shadow: rgba(237, 28, 36, 1);
+
 }

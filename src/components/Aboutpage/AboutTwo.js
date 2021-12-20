@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col,  Row, } from 'react-bootstrap'
+import { Col, Row, } from 'react-bootstrap'
 import "./abouttwo.css"
 import TipsAndUpdatesOutlinedIcon from '@mui/icons-material/TipsAndUpdatesOutlined';
 
@@ -12,7 +12,7 @@ function AboutTwo() {
 
 
             <Row className="abt2-mainsctn1" >
-            <Col><h1 className="abt2-main-heading" data-aos="flip-up">We Are Expert In IT <br/>Solutions Services</h1></Col>
+                <Col><h1 className="abt2-main-heading" data-aos="flip-up">We Are Expert In IT <br />Solutions Services</h1></Col>
                 <Row className="abt2-sctn2" xs={1} md={1}>
 
                     <Col className="abt2-colone" data-aos="zoom-in-up">

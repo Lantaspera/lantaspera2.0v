@@ -21,10 +21,10 @@
 
 }
 .abt3-sub-tag{
-text-align: start;
-font-size: 18px;
-font-weight: 450;
-margin-top: 1.5vw;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 450;
+    margin-top: 1.5vw;
 }
 .abt3-card-mdiv{
     width: 260px;
@@ -60,7 +60,7 @@ margin-top: 1.5vw;
     margin-top: 5vw;
 }
 .abt3-secndcol{
-  margin-right: 1vw;
+    margin-right: 1vw;
 }
 .abt3-thrdrow{
     margin-top: 2vw;

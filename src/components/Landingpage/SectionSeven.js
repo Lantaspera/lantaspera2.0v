@@ -11,7 +11,7 @@ function SectionSeven() {
         <div className="sctn7-footer-main"  >
             <Container >
                 <Row xs={1} md={3}>
-                    <Col  className="sctn7-img">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid />
+                    <Col className="sctn7-img">< Image src="https://res.cloudinary.com/lanta/image/upload/v1637569166/lantaspera_Final_kdqclo.png" fluid />
                         <p className="sctn7-logotag">Ingeniously Innovative.</p>
                         {/* <p className="sctn7-adresstag">info@lantaspera.com</p> */}
                         <p className="sctn7-followtag">Follow Us:  </p>
@@ -24,26 +24,26 @@ function SectionSeven() {
                     <Col md={6} className="sctn7-content">
                         <Row xs={3} md={3} >
                             <Col><h1 className="sctn7-subheading-1">Services</h1>
-                            <Link className="sctn2-atag" to="/webdesign"> <p className="sctn7-subtags">Web Design</p></Link>
-                            <Link className="sctn2-atag" to="/webdevelopment"><p className="sctn7-subtags">Web Development</p></Link>
-                            <Link className="sctn2-atag" to="/appdevelopment"><p className="sctn7-subtags">App Development</p></Link>
-                            <Link className="sctn2-atag" to="/digitalmarket"><p className="sctn7-subtags">Digital Market</p></Link>
+                                <Link className="sctn2-atag" to="/webdesign"> <p className="sctn7-subtags">Web Design</p></Link>
+                                <Link className="sctn2-atag" to="/webdevelopment"><p className="sctn7-subtags">Web Development</p></Link>
+                                <Link className="sctn2-atag" to="/appdevelopment"><p className="sctn7-subtags">App Development</p></Link>
+                                <Link className="sctn2-atag" to="/digitalmarket"><p className="sctn7-subtags">Digital Market</p></Link>
                                 <Link className="sctn2-atag" to="/graphicdesign"><p className="sctn7-subtags">Ui/UX Design</p></Link>
-                               
+
 
                             </Col>
                             <Col><h1 className="sctn7-subheading-1">Company</h1>
-                            <Link className="sctn2-atag" to="/features"> <p className="sctn7-subtags">Feature</p></Link>
+                                <Link className="sctn2-atag" to="/features"> <p className="sctn7-subtags">Feature</p></Link>
                                 <Link className="sctn2-atag" to="/faq">  <p className="sctn7-subtags">Faq</p></Link>
-                                <Link className="sctn2-atag" to="/contact"><p className="sctn7-subtags">Contact Us</p></Link> 
+                                <Link className="sctn2-atag" to="/contact"><p className="sctn7-subtags">Contact Us</p></Link>
                                 <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Career Opportunities</p></Link>
 
                             </Col>
                             <Col><h1 className="sctn7-subheading-1">Legal</h1>
-                            <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Terms & Conditions</p></Link>
-                            <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Privacy policy</p></Link>
-                            <Link className="sctn2-atag" to="/sectionfive"> <p className="sctn7-subtags">Customers</p></Link>
-                            <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Pricing</p></Link> 
+                                <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Terms & Conditions</p></Link>
+                                <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Privacy policy</p></Link>
+                                <Link className="sctn2-atag" to="/sectionfive"> <p className="sctn7-subtags">Customers</p></Link>
+                                <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Pricing</p></Link>
 
                             </Col>
                         </Row>

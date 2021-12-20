@@ -16,9 +16,9 @@
 
   }
   .section2-details2{
-   color: rgba(124, 133, 149, 1);
-   font-size: 16px;
-   margin: 1vw;
+    color: rgba(124, 133, 149, 1);
+    font-size: 16px;
+    margin: 1vw;
   }
   .heading-sectn2{
     text-align: center;
@@ -37,24 +37,24 @@
   .sctn2-atag{
     color: rgba(237, 28, 36, 1);
     text-decoration: none;
-   text-align: start;
+    text-align: start;
     margin-top: 3.5vw;
-    
+
   }
   .sctn2-icon-div{
     width: 100px;
     height: 100px;
     background: rgba(255, 239, 240, 1);
-   text-align: center;
-   border-radius: 100%;
-margin-left: 30%;
-outline: 0;
-box-shadow: none;
-text-decoration: none;
-border: #fff;
-cursor: pointer;
-box-shadow: rgba(237, 28, 36, 1);
-margin-top: .5vw;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 30%;
+    outline: 0;
+    box-shadow: none;
+    text-decoration: none;
+    border: #fff;
+    cursor: pointer;
+    box-shadow: rgba(237, 28, 36, 1);
+    margin-top: .5vw;
 
   }
 
@@ -69,18 +69,17 @@ margin-top: .5vw;
    margin-top: 5vw;
    border: 1px solid #C4C4C4;
    margin-left: 15%;
-
- 
-  cursor: pointer;
+   cursor: pointer;
+   
  }
  .sctn2-card-div:hover{
   
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
  }
-   .sctn2-link-tag{
+ .sctn2-link-tag{
      text-decoration: none;
      color: black;
    }
-   .sctn2-link-tag:hover{
+ .sctn2-link-tag:hover{
     color: black;
    }

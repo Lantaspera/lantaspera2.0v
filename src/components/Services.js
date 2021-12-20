@@ -8,23 +8,23 @@ import { useEffect } from 'react'
 
 function Services() {
 
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
-    return (
-        <div className="services-main-div">
-        
-      
-      <ServiceOne/>
-      <ServiceTwo/>
-      <ServicesThree/>
-      <SectionSeven/>
+  return (
+    <div className="services-main-div">
 
-          
-          </div>
- 
-    )
+
+      <ServiceOne />
+      <ServiceTwo />
+      <ServicesThree />
+      <SectionSeven />
+
+
+    </div>
+
+  )
 }
 
 export default Services
