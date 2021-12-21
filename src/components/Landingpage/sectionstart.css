@@ -2,11 +2,11 @@
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 9vw;
+    margin-top: 11vw;
+  
   
    }
-    
-   .caption-lanta{
+.caption-lanta{
     
     font-size: 20px;
     font-style: normal;
@@ -14,13 +14,14 @@
     color: rgba(64, 82, 99, 1);
     text-align: start;  
    }
-   .first-image-cs{
-    width: 100%;
-    margin-top:2vw;
-   }
-.sctn1-svg-imgrect{
-    width: 115%;
+
+.sctn1-main-div{
+    margin-top:3vw ;
 }
-.section-one{
-    margin-top: 7vw;
+.sctn1-fst-col{
+    margin-left: 6vw;
+}
+.sctn1-imge{
+    
+    padding-top: 5vw;
 }

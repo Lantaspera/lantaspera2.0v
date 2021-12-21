@@ -40,61 +40,61 @@ const App = () => {
 
         <Switch>
 
-          <Route path="/" exact component={Home} exact >
+          <Route path="/" exact component={Home}  >
             <Home />
           </Route>
 
-          <Route path="/about" component={About} exact>
+          <Route path="/about" component={About} >
             <About />
           </Route>
 
-          <Route path="/services" component={Services} exact >
+          <Route path="/services" component={Services}  >
             <Services />
           </Route>
 
-          <Route path="/contact" component={Contact} exact >
+          <Route path="/contact" component={Contact}  >
             <Contact />
           </Route>
 
 
-          <Route path="/webdesign" component={WebDesign} exact >
+          <Route path="/webdesign" component={WebDesign} >
             <WebDesign />
           </Route>
 
-          <Route path="/webdevelopment" component={Webdevelopment} exact >
+          <Route path="/webdevelopment" component={Webdevelopment}  >
             <Webdevelopment />
           </Route>
 
 
-          <Route path="/appdevelopment" component={AppDevelopment} exact >
+          <Route path="/appdevelopment" component={AppDevelopment}  >
             <AppDevelopment />
           </Route>
 
-          <Route path="/graphicdesign" component={GraphicsDesign} exact >
+          <Route path="/graphicdesign" component={GraphicsDesign} >
             <GraphicsDesign />
           </Route>
 
-          <Route path="/digitalmarket" component={DigitalMarket} exact >
+          <Route path="/digitalmarket" component={DigitalMarket}  >
             <DigitalMarket />
           </Route>
 
-          <Route path="/socialmedia" component={SocialMedia} exact >
+          <Route path="/socialmedia" component={SocialMedia}  >
             <SocialMedia />
           </Route>
 
-          <Route path="/errorpage" component={ErrorPage} exact >
+          <Route path="/errorpage" component={ErrorPage}  >
             <ErrorPage />
           </Route>
 
-          <Route path="/sectionfive" component={SectionFive} exact >
+          <Route path="/sectionfive" component={SectionFive}  >
             <SectionFive />
           </Route>
 
-          <Route path="/faq" component={AboutFour} exact >
+          <Route path="/faq" component={AboutFour} >
             <AboutFour />
           </Route>
 
-          <Route path="/features" component={AboutTwo} exact >
+          <Route path="/features" component={AboutTwo}  >
             <AboutTwo />
           </Route>
 

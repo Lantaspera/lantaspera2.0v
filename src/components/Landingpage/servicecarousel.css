@@ -2,12 +2,7 @@
     width: 300px;
     margin-top: 5vw;
 }
-.section2-img{
-    width: 200px;
-    height: 200px; 
-    margin-left: 2%;
-    
-  }
+
   .section2-details1{
     padding-left: 12%;
     font-size:22px;
@@ -72,14 +67,18 @@
    cursor: pointer;
    
  }
- .sctn2-card-div:hover{
+ /* .sctn2-card-div:hover{
   
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
- }
+ } */
  .sctn2-link-tag{
      text-decoration: none;
      color: black;
    }
  .sctn2-link-tag:hover{
     color: black;
+   }
+   .sctn2-main-div{
+     margin-top: 5vw;
+     width: 100%;
    }

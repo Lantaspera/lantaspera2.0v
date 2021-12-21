@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import "./sectionsix.css"
 import Form from 'react-bootstrap/Form'
 import emailjs from "emailjs-com"
+import {motion} from 'framer-motion/dist/es/index'
 
 
 function SectionSix() {
@@ -60,7 +61,10 @@ function SectionSix() {
                 <Form.Group className="mb-3" id="formGridCheckbox">
                   <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <button className="sctn6-button" onClick={() => { alert('message send sucssesfully'); }}>  Send Message</button>
+                <motion.button className="sctn6-button" onClick={() => { alert('message send sucssesfully'); }}
+                whileHover={{scale:1.1}}
+                whileTap={{ scale: 0.9 }}
+                >  Send Message</motion.button>
               </Form>
             </Container>
           </Col>

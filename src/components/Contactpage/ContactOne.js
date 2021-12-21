@@ -6,6 +6,7 @@ import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
 // import AddLocationOutlinedIcon from '@mui/icons-material/AddLocationOutlined';
 import emailjs from "emailjs-com"
+import {motion} from 'framer-motion/dist/es/index'
 
 
 function ContactOne() {
@@ -137,7 +138,11 @@ function ContactOne() {
 
    
 
-                <button className="cntact1-form-btn" onClick={()=>{ alert('message send sucssesfully'); }}> Send</button>
+                <motion.button className="cntact1-form-btn" onClick={()=>{ alert('message send sucssesfully'); }}
+                
+                whileHover={{scale:1.1}}
+                whileTap={{ scale: 0.9 }}
+                > Send</motion.button>
                            
                         </Form></Col>
 
