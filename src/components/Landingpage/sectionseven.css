@@ -30,7 +30,8 @@
 .sctn7-logotag{
     color: rgba(130, 143, 153, 1);
     font-size: 15px;
-    margin-left:5px;
+    margin-left:7%;
+    margin-top: .5vw;
 }
 .sctn7-adresstag{
     font-size: 12px;

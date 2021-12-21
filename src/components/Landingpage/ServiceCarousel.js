@@ -10,20 +10,22 @@ import { GiPencilRuler } from "react-icons/gi";
 import { MdOutlineAppSettingsAlt } from "react-icons/md";
 import { AiOutlineCloudSync } from "react-icons/ai";
 import { BiMessageRoundedDots } from "react-icons/bi";
+import {motion} from 'framer-motion/dist/es/index'
+
+
 
 
 
 
 function ServiceCarousel() {
     return (
-        <div >
-
-            <Container className="section-two" data-aos="fade-up">
-                <Row>
+        <Container className='sctn2-main-div'>
+    
+                <Row  className="section-two" data-aos="fade-up">
                     <Col data-aos="fade-up"> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
                 </Row>
 
-            </Container>
+    
 
             <Container   >
                 <Row xs={1} md={3} >
@@ -31,8 +33,8 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="1000">
                         <Row>
-                            <Col>
-                                <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
+                            <motion.div  whileHover={{scale:1.1}} whileTap={{ scale: 0.9 }}> 
+                                <Card  className="sctn2-card-div" ><Link className='sctn2-link-tag' to="/services">
 
 
                                     <Card.Body>
@@ -48,7 +50,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </Col>
+                            </motion.div>
 
                         </Row>
                     </Col>
@@ -56,7 +58,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="4000" >
                         <Row>
-                            <Col>
+                        <motion.div  whileHover={{scale:1.1}}>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -73,15 +75,16 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </Col>
+                            </motion.div>
 
                         </Row>
                     </Col>
 
                     <Col data-aos="fade-up"
                         data-aos-duration="8000" >
-                        <Row>
-                            <Col>
+                        <Row>  
+                             <motion.div  whileHover={{scale:1.1}}>
+
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -98,7 +101,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </Col>
+                            </motion.div>
 
                         </Row></Col>
                 </Row>
@@ -110,7 +113,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="1000" >
                         <Row>
-                            <Col>
+                        <motion.div  whileHover={{scale:1.1}}>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -128,12 +131,12 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </Col>
+                            </motion.div>
 
                         </Row></Col>
                     <Col data-aos="fade-up"
                         data-aos-duration="4000" ><Row>
-                            <Col>
+                               <motion.div  whileHover={{scale:1.1}}>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -151,13 +154,13 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </Col>
+                            </motion.div>
 
                         </Row></Col>
                     <Col data-aos="fade-up"
                         data-aos-duration="8000" >
                         <Row>
-                            <Col>
+                        <motion.div  whileHover={{scale:1.1}}>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -175,14 +178,14 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </Col>
+                            </motion.div>
 
                         </Row></Col>
                 </Row>
             </Container>
+</Container>
 
-
-        </div>
+        
     )
 }
 
