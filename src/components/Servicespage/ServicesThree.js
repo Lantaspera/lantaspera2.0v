@@ -22,9 +22,9 @@ function ServicesThree() {
                         <Col className="srvc3-chcksctn">
                             <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We always ensure to give our best to the  customer.
                             </p>
-                            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We give professinal support to our clients.
+                            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We give professional support to our clients.
                             </p>
-                            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We provide a social media platform to make more audience </p>
+                            <p className="srvc3-tck-sctn"><CheckOutlinedIcon color="error" fontSize="small" />We provide a social media platform to make more audience. </p>
 
                             <Col><Link to="/contact"> <Button className="srvc3-btn" variant="danger">Get Started Now</Button></Link> </Col>
 

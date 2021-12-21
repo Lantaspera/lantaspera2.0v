@@ -24,7 +24,7 @@ function GraphicsDesign() {
                     <p className="dsg1-content-sectn">Graphic design is the art of visual communication that combines images, words, and ideas to
                         convey information to audience. It is a way of conveying ideas through visuals and design.
                         Graphic design concept is composed of different fields and specializations. Types of graphic
-                        design includes corporate design, marketing and advertising design, Publication design,
+                        design includes corporate design, marketing and advertising design, publication design,
                         environmental design, packaging design and motion design.
                         Corporate design has to do with the visual identity of a company. Any visual elements that make
                         up a brand identity, such as a brand’s logo (made with logo design software), can be associated

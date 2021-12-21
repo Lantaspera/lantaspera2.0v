@@ -138,11 +138,10 @@ function ContactOne() {
 
    
 
-                <motion.button className="cntact1-form-btn" onClick={()=>{ alert('message send sucssesfully'); }}
+                <button className="cntact1-form-btn" onClick={()=>{ alert('message send sucssesfully'); }}
                 
-                whileHover={{scale:1.1}}
-                whileTap={{ scale: 0.9 }}
-                > Send</motion.button>
+              
+                > Send</button>
                            
                         </Form></Col>
 

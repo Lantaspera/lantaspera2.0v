@@ -2,7 +2,8 @@
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 11vw;
+    margin-top: 5vw;
+   
   
   
    }
@@ -14,14 +15,11 @@
     color: rgba(64, 82, 99, 1);
     text-align: start;  
    }
+.sectn1-img{
 
+
+}
 .sctn1-main-div{
-    margin-top:3vw ;
-}
-.sctn1-fst-col{
-    margin-left: 6vw;
-}
-.sctn1-imge{
-    
-    padding-top: 5vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
 }

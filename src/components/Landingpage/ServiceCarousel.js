@@ -33,7 +33,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="1000">
                         <Row>
-                            <motion.div  whileHover={{scale:1.1}} whileTap={{ scale: 0.9 }}> 
+                            <Col>
                                 <Card  className="sctn2-card-div" ><Link className='sctn2-link-tag' to="/services">
 
 
@@ -50,7 +50,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </motion.div>
+                                </Col>
 
                         </Row>
                     </Col>
@@ -58,7 +58,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="4000" >
                         <Row>
-                        <motion.div  whileHover={{scale:1.1}}>
+                        <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -75,7 +75,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </motion.div>
+                                </Col>
 
                         </Row>
                     </Col>
@@ -83,8 +83,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="8000" >
                         <Row>  
-                             <motion.div  whileHover={{scale:1.1}}>
-
+                        <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -101,7 +100,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </motion.div>
+                                </Col>
 
                         </Row></Col>
                 </Row>
@@ -113,7 +112,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="1000" >
                         <Row>
-                        <motion.div  whileHover={{scale:1.1}}>
+                        <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -131,12 +130,12 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </motion.div>
+                                </Col>
 
                         </Row></Col>
                     <Col data-aos="fade-up"
                         data-aos-duration="4000" ><Row>
-                               <motion.div  whileHover={{scale:1.1}}>
+                              <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -154,13 +153,13 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </motion.div>
+                                </Col>
 
                         </Row></Col>
                     <Col data-aos="fade-up"
                         data-aos-duration="8000" >
                         <Row>
-                        <motion.div  whileHover={{scale:1.1}}>
+                       
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -178,7 +177,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                            </motion.div>
+                     
 
                         </Row></Col>
                 </Row>

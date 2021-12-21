@@ -61,10 +61,9 @@ function SectionSix() {
                 <Form.Group className="mb-3" id="formGridCheckbox">
                   <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <motion.button className="sctn6-button" onClick={() => { alert('message send sucssesfully'); }}
-                whileHover={{scale:1.1}}
-                whileTap={{ scale: 0.9 }}
-                >  Send Message</motion.button>
+                <button className="sctn6-button" onClick={() => { alert('message send sucssesfully'); }}
+                
+                >  Send Message</button>
               </Form>
             </Container>
           </Col>

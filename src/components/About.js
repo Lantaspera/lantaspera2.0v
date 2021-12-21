@@ -17,7 +17,7 @@ function About() {
   }, [])
   return (
     <div>
-      <Container fluid>
+      <Container className='aboutpge' fluid>
         <TopCurve />
         <AboutOne />
         <AboutTwo />

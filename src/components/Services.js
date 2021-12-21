@@ -5,6 +5,7 @@ import ServiceTwo from './Servicespage/ServiceTwo'
 import SectionSeven from './Landingpage/SectionSeven'
 import ServicesThree from './Servicespage/ServicesThree'
 import { useEffect } from 'react'
+import { Container } from 'react-bootstrap'
 
 function Services() {
 
@@ -14,7 +15,6 @@ function Services() {
 
   return (
     <div className="services-main-div">
-
 
       <ServiceOne />
       <ServiceTwo />

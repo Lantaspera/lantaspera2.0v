@@ -25,8 +25,7 @@ function Webdevelopment() {
                     </p>
                     <Col>
                         <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" />React js  </p>
-                        <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> NPM
-                        </p>
+                        <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> NPM </p>
                         <p className="dsg1-tct-sctn"><CheckOutlinedIcon color="error" fontSize="small" /> JQuery </p>
 
 

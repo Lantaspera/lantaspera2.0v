@@ -69,7 +69,7 @@ function SectionSeven() {
                             </Col>
                             <Col><h1 className="sctn7-subheading-1">Company</h1>
                                 <Link className="sctn2-atag" to="/features"> <p className="sctn7-subtags">Feature</p></Link>
-                                <Link className="sctn2-atag" to="/faq">  <p className="sctn7-subtags">Faq</p></Link>
+                                <Link className="sctn2-atag" to="/faq">  <p className="sctn7-subtags">FAQ</p></Link>
                                 <Link className="sctn2-atag" to="/contact"><p className="sctn7-subtags">Contact Us</p></Link>
                                 <Link className="sctn2-atag" to="/errorpage"><p className="sctn7-subtags">Career Opportunities</p></Link>
 
