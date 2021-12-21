@@ -17,7 +17,7 @@ function DigitalMarket() {
                 <Col><h1 className="dsg1-heading">DIGITAL MARKETING</h1></Col>
             </Row>
             <Row>
-                <Col><p className="dsg1-subtagline">    Our team experts establishes your online identity,<br />  build trust stimulate customer interactivity and
+                <Col><p className="dsg1-subtagline">    Our team experts establishes your online identity,<br />  build trust,stimulate customer interactivity and
                     scale up—<br />your business by facilitating growth and expansion</p></Col>
             </Row>
             <Row xs={1} md={2} sm={1}>

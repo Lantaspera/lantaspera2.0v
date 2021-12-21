@@ -23,10 +23,11 @@ function Home() {
   }, [])
   return (
     <div className='home-page-main' >
-<Container fluid>
 
 
-     
+
+     <Container fluid >
+       
       <SectionStart/>
       <ServiceCarousel />
       <SectionThree />
