@@ -1,7 +1,6 @@
 import React from 'react'
 import "./sectionseven.css"
 import { Col, Container, Row } from 'react-bootstrap'
-import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 import { Link } from 'react-router-dom'

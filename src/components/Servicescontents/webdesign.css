@@ -1,8 +1,8 @@
 .dsg1-head-sctn{
-    
+    margin-top: 3vw;
     background: #ED1C24;
-    height: 25%;
-    margin-top: 8vw;
+  padding: 3.5vw;
+ 
 
 
 }
@@ -11,7 +11,8 @@
     font-weight: 700;
     text-align: center;
     color: #fff;
-    padding: 4vw;
+    margin-top: 2vw;
+
  
 }
 .dsg1-subtagline{
@@ -44,4 +45,7 @@
     text-decoration:  underline red;
     font-size: 30px;
     margin-left: 2vw;
+}
+.srvc-sub-sctn-m{
+    margin-top: 10vw;
 }

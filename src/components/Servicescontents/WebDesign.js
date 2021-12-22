@@ -11,10 +11,13 @@ function WebDesign() {
     }, [])
     return (
         <div>
-
+            
+             
+            <div className='srvc-sub-sctn-m'>
             <Row className="dsg1-head-sctn">
                 <Col><h1 className="dsg1-heading">WEB DESIGNING</h1></Col>
             </Row>
+            </div>
             <Row>
                 <Col><p className="dsg1-subtagline">
                     Our web designing services ensure <br /> a well formatted content and a well planned information architecture- <br /> providing visual appealing and articulate format. </p></Col>

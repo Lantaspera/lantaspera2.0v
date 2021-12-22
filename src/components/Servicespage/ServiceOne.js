@@ -7,8 +7,8 @@ import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 function ServiceOne() {
     return (
         <div>
-            <Container className="srvc1-mdiv" >
-                <Row xs={1} md={2}>
+            <Container className="srvc1-mdiv" fluid >
+                <Row xs={1} md={2} className='srvc1-m-row' >
                     <Col data-aos="fade-right">
                        <Col> <h1 className="srvc1-red-heading">CAST YOUR EYES TO KNOW MORE ON</h1></Col>
                         <Col><h1 className="srvc1-head1-sctn">

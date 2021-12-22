@@ -1,6 +1,6 @@
 import React from 'react'
 import "./webdesign.css"
-import { Col, Image, Row } from 'react-bootstrap'
+import { Col, Container, Image, Row } from 'react-bootstrap'
 import SectionSeven from '../Landingpage/SectionSeven'
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 import { useEffect } from 'react'
@@ -12,9 +12,11 @@ function SocialMedia() {
     }, [])
     return (
         <div>
+            <div className='srvc-sub-sctn-m'>
             <Row className="dsg1-head-sctn">
                 <Col><h1 className="dsg1-heading">SOCIAL MEDIA CAMPAIGN</h1></Col>
             </Row>
+            </div>
             <Row>
                 <Col><p className="dsg1-subtagline">A social media campaign is a coordinated <br /> marketing effort to reinforce or assist with a business
                     goal—<br /> using one or more social media platforms.</p></Col>

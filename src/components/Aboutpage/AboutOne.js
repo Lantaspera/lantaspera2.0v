@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, Image } from 'react-bootstrap'
+import { Col, Row, Image } from 'react-bootstrap'
 import "./aboutone.css"
 
 
@@ -12,7 +12,7 @@ function AboutOne() {
     return (
 
         <div className="abt-one-mdiv">
-            <Container >
+            
                 <Row xs={1} md={2}>
                     <Col md={4} data-aos="fade-right">< Image className="abt1-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638173324/image_5_jowfs4.png" fluid /></Col>
 
@@ -30,7 +30,7 @@ function AboutOne() {
 
 
 
-                        <Col >  <p className="abt1-main-content" >We start our journey from vaccum, with a fire of inspiration inside. We always try to give the best to our beloved clients that's the only moto we carry with us. We try to find solutions to your problems by effective communication and with our restless hard work .Your smile is our light to vision.</p>
+                        <Col >  <p className="abt1-main-content" >We start our journey to fulfill our long cherished dream,with a fire of inspiration inside. We always try to give the best to our beloved clients that's the only moto we carry with us. We try to find solutions to your problems by effective communication and with our restless hard work. Your smile is our light to vision.</p>
                             <h5 className="abt1-foundername">Adrid Sadanand </h5>
                             <p className="abt1-ftag">Founder/COO</p>
                         </Col>
@@ -40,7 +40,7 @@ function AboutOne() {
 
 
 
-            </Container>
+           
         </div>
     )
 }
