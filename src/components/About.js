@@ -16,15 +16,14 @@ function About() {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <div>
-      <Container className='aboutpge' fluid>
+    <div className='aboutpge' >
         <TopCurve />
         <AboutOne />
         <AboutTwo />
         <AboutThree />
         <AboutFour />
         <SectionSeven />
-      </Container>
+      
     </div>
   )
 }

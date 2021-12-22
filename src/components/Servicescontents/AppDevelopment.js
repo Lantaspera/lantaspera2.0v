@@ -12,9 +12,12 @@ function AppDevelopment() {
     }, [])
     return (
         <div>
+           
+            <div className='srvc-sub-sctn-m'>
             <Row className="dsg1-head-sctn">
                 <Col><h1 className="dsg1-heading">APP DEVELOPMENT</h1></Col>
             </Row>
+            </div>
             <Row>
                 <Col><p className="dsg1-subtagline">   Our App development services provide well<br /> designed, well featured, eye catching app having great UI, fast—<br /> loading time and high performance quality.</p></Col>
             </Row>

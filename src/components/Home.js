@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Home.css";
-
 import ServiceCarousel from './Landingpage/ServiceCarousel';
 import SectionThree from './Landingpage/SectionThree';
 import SectionFour from './Landingpage/SectionFour';
@@ -17,6 +16,7 @@ import { Container } from 'react-bootstrap';
 
 
 
+
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -25,9 +25,7 @@ function Home() {
     <div className='home-page-main' >
 
 
-
-     <Container fluid >
-       
+       <Container fluid>
       <SectionStart/>
       <ServiceCarousel />
       <SectionThree />

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import "./sectionsix.css"
 import Form from 'react-bootstrap/Form'
 import emailjs from "emailjs-com"
-import {motion} from 'framer-motion/dist/es/index'
+
 
 
 function SectionSix() {

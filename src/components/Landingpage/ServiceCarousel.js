@@ -10,7 +10,7 @@ import { GiPencilRuler } from "react-icons/gi";
 import { MdOutlineAppSettingsAlt } from "react-icons/md";
 import { AiOutlineCloudSync } from "react-icons/ai";
 import { BiMessageRoundedDots } from "react-icons/bi";
-import {motion} from 'framer-motion/dist/es/index'
+
 
 
 
@@ -19,7 +19,7 @@ import {motion} from 'framer-motion/dist/es/index'
 
 function ServiceCarousel() {
     return (
-        <Container className='sctn2-main-div'>
+        <Container className='sctn2-main-div' fluid>
     
                 <Row  className="section-two" data-aos="fade-up">
                     <Col data-aos="fade-up"> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
@@ -156,20 +156,20 @@ function ServiceCarousel() {
                                 </Col>
 
                         </Row></Col>
-                    <Col data-aos="fade-up"
-                        data-aos-duration="8000" >
-                        <Row>
-                       
+
+                        <Col data-aos="fade-up"
+                        data-aos-duration="4000" ><Row>
+                              <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
                                     <Card.Body>
 
-                                        <Col> <button className="sctn2-icon-div"> <BiMessageRoundedDots className="sctn2-icon" size={50} /></button></Col>
-                                        <Card.Title className="sctn2-cardheading">Social Media Campaign</Card.Title>
+                                        <Col> <button className="sctn2-icon-div"> <BiMessageRoundedDots  className="sctn2-icon" size={50} /></button></Col>
+                                        <Card.Title className="sctn2-cardheading">Social Media Campaign </Card.Title>
                                         <Card.Text className="sctn2-cardtext">
                                             A social media campaign is a coordinated
-                                            marketing effort to reinforce or assist with a business.....
+                                            marketing effort to reinforce or assist with a business.....v
                                         </Card.Text>
                                         <Col className="sctn2-atag"><Link className="sctn2-atag" to="/socialmedia">
                                             Learn more
@@ -177,9 +177,10 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                     
+                                </Col>
 
                         </Row></Col>
+                   
                 </Row>
             </Container>
 </Container>

@@ -6,7 +6,7 @@ import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
 // import AddLocationOutlinedIcon from '@mui/icons-material/AddLocationOutlined';
 import emailjs from "emailjs-com"
-import {motion} from 'framer-motion/dist/es/index'
+
 
 
 function ContactOne() {
