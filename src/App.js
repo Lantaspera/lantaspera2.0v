@@ -33,7 +33,7 @@ const App = () => {
   }, []);
   return (
 
-    <Router >
+    <Router basename='/built' >
       <div>
         <NavbarTab />
 
