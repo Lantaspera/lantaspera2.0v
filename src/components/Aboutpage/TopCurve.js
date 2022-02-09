@@ -1,12 +1,12 @@
 import React from 'react'
-import { Col, Row, } from 'react-bootstrap'
+import { Col, Container, Row, } from 'react-bootstrap'
 import "./topcurve.css"
 
 
 function TopCurve() {
   return (
 
-    <div className="abt-one-mdiv" data-aos="zoom-in-down" >
+    <Container className="abt-one-mdiv" data-aos="zoom-in-down" >
 
 
       <Row xs={1} md={2}>
@@ -140,7 +140,7 @@ function TopCurve() {
 
 
 
-    </div>
+    </Container>
 
   )
 }

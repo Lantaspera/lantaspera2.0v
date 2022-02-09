@@ -1,3 +1,4 @@
+import { Container } from '@mui/material'
 import React from 'react'
 import { Col, Row, Image } from 'react-bootstrap'
 import "./aboutone.css"
@@ -11,7 +12,7 @@ function AboutOne() {
 
     return (
 
-        <div className="abt-one-mdiv">
+        <Container fluid className="abt-two-mdiv">
             
                 <Row xs={1} md={2}>
                     <Col md={4} data-aos="fade-right">< Image className="abt1-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638173324/image_5_jowfs4.png" fluid /></Col>
@@ -41,7 +42,7 @@ function AboutOne() {
 
 
            
-        </div>
+        </Container>
     )
 }
 

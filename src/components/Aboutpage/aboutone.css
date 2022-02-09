@@ -1,5 +1,5 @@
 .abt1-first-img{
-margin-top: 7vw;
+margin-top: 10vw;
 margin-left: 5vw;
     border-radius: 5%;}
    
@@ -22,8 +22,9 @@ margin-left: 5vw;
 
 
 .abt1-sec-mdiv{
-    margin-top: 4vw;
-    margin-left: 3vw;
+    margin-top: 1vw;
+    margin-left: 10vw;
+
   
 }
 .abt1-red-tag{
@@ -55,11 +56,11 @@ margin-left: 5vw;
 .abt1-foundername{
     font-size: 20px;
     font-weight: 700;
-    margin-left: 1vw;
+    margin-left: 3vw;
     margin-top: 1vw;
 }
 .abt1-ftag{
-    margin-left: 1vw;
+    margin-left: 3vw;
     font-weight: 500;
     font-size: 18px;
 }

@@ -1,18 +1,4 @@
 
- 
-
- 
-.logo{
-
-
-width: 200px;
-margin-left: 6vw;
-margin-top: 1vw;
-    
-
-
-    
-}
 
 
 
@@ -38,4 +24,9 @@ text-decoration: none;
 .contact:hover,
 .about:hover{ color: red;
 }
-
+.active{
+    color:red;
+   }
+.nav-main-div-r{
+    margin-bottom: 6vw;
+}

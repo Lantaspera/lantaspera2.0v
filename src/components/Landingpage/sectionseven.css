@@ -1,6 +1,7 @@
 .sctn7-footer-main{
     background: rgba(244, 210, 211, 0.2);
     margin-top: 2vw;
+  
 
     
 }
@@ -30,7 +31,7 @@
 .sctn7-logotag{
     color: rgba(130, 143, 153, 1);
     font-size: 15px;
-    margin-left:7%;
+    margin-left:9%;
     margin-top: .5vw;
 }
 .sctn7-adresstag{
@@ -42,6 +43,7 @@
     font-weight: 500;
     float: left;
     margin-top: 4vw;
+    margin-left: 1.5vw;
   
  
 }
@@ -55,4 +57,8 @@
 }
 .sctn7-folo-btn:hover{
     transform: scale(1.5);
+}
+.sctn7-footer-maincontainer{
+    padding: auto;
+    
 }

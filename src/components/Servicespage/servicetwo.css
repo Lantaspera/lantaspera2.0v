@@ -27,6 +27,7 @@
     width: 290px;
     height: 260px;
     margin-bottom: 3vw;
+    margin-left: 10%;
 
 }
 .srvc2-card-icon{
@@ -46,7 +47,7 @@
 .srvc2-card-mrow{
     margin-bottom: 3vw;
     margin-top: 1vw;
-    margin-left: 2vw;
+
  
 }
 .srvc2-card-mdiv:hover{
@@ -61,5 +62,11 @@
 .srvc2-link-tag:hover{
     text-decoration: none;
     color: #FFFFFF;
+  
+}
+.srvc2-card-container{
+    display: flex;
+    align-items: center;
+    
   
 }

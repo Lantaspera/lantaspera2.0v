@@ -58,9 +58,7 @@ function SectionSix() {
 
 
 
-                <Form.Group className="mb-3" id="formGridCheckbox">
-                  <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
+                
                 <button className="sctn6-button" onClick={() => { alert('message send sucssesfully'); }}
                 
                 >  Send Message</button>

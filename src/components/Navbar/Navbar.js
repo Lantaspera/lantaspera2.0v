@@ -4,17 +4,18 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
-import { Link } from 'react-router-dom'
+
 import "./Navbar.css"
+import { NavLink } from 'react-router-dom';
 
 
 
 function NavbarTab() {
   return (
-    <div>
+    <div className='nav-main-div-r'>
       <Navbar className="navbar-m" collapseOnSelect expand="lg" bg="white" variant="light" fixed="top" sticky-top >
         <Container>
-          <Navbar.Brand  >
+          <Navbar.Brand  className='logoimage-svg' >
             <svg width="217" height="43" viewBox="0 0 217 43" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_534_376)">
                 <path d="M43.7703 23.2206C42.5236 23.2452 41.2822 23.0506 40.1029 22.6454C39.1219 22.3082 38.2324 21.7484 37.5039 21.0099C36.7755 20.2714 36.2279 19.3742 35.9042 18.3887C35.5355 17.2861 35.3561 16.1291 35.3733 14.9666V4.29712H39.3984V14.9952C39.3649 15.5597 39.4471 16.1251 39.6398 16.6567C39.8326 17.1884 40.1319 17.675 40.5194 18.0869C40.9462 18.4734 41.4461 18.7705 41.9896 18.9607C42.533 19.151 43.1091 19.2304 43.6838 19.1944H49.6074V23.2208L43.7703 23.2206Z" fill="#231F20" />
@@ -59,18 +60,18 @@ function NavbarTab() {
 
             </Nav>
             <Nav>
-              <Link to="/" className="home">
+              <NavLink  to="/" className="home" activeClassName="active">
                 <li>Home</li>
-              </Link>
-              <Link to="/services" className="services">
+              </NavLink >
+              <NavLink  to="/services" className="services" activeClassName="active">
                 <li>Services</li>
-              </Link>
-              <Link to="/about" className="about">
+              </NavLink >
+              <NavLink  to="/about" className="about" activeClassName="active">
                 <li>About</li>
-              </Link>
-              <Link to="/contact" className="contact">
+              </NavLink >
+              <NavLink  to="/contact" className="contact" activeClassName="active">
                 <li>Contact</li>
-              </Link>
+              </NavLink >
             </Nav>
           </Navbar.Collapse>
         </Container>
