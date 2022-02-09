@@ -23,7 +23,7 @@ function ServiceTwo() {
                         <Col><h1 className="srvc2-scnd-heading">We Offer a Wide Variety of IT Services</h1></Col>
                         <Col><p className="srvc2-tagline">Blending our experience with technologies we provide various services <br /> that offers a comprehensive range of digital solutions.</p></Col>
                     </Row>
-
+<Container className='srvc2-card-container'>
                     <Row className="srvc2-card-mrow" xs={1} md={3} sm={2}>
                         <Col>
 
@@ -120,6 +120,7 @@ function ServiceTwo() {
 
 
                     </Row>
+                    </Container>
                 </Row>
             </Container>
 

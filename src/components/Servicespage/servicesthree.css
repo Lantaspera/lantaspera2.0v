@@ -6,6 +6,9 @@
 .srvc3-mrow{
     margin-top: 8vw;
     margin-bottom: 8vw;
+   margin-left: 2vw;
+ 
+   
 }
 .srvc3-fst-black{
     font-size: 52px;
@@ -30,6 +33,6 @@
     font-size: 16px;
 }
 .srvc3-first-img{
-    margin-left: 8vw;
+    margin-left: 5vw;
     margin-top: 2vw;
 }

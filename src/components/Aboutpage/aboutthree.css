@@ -28,7 +28,7 @@
 }
 .abt3-card-mdiv{
     width: 260px;
-    height: 400px;
+    height: 350px;
     border-radius: 8px;
     margin-top: 4vw;
     margin-left: 2vw;
@@ -54,7 +54,7 @@
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 .abt3-secndrow{
     margin-top: 5vw;
@@ -68,4 +68,16 @@
 }
 .abt-one-mdiv{
     margin-left: 4vw;
+}
+.abt3-sub-container{
+    display: flex;
+    align-items: center;
+
+}
+.abt3-card-mdiv1{
+    width: 260px;
+    height: 350px;
+    border-radius: 8px;
+    margin-top: 4vw;
+    margin-left: 3vw;
 }

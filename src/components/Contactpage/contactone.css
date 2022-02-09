@@ -65,14 +65,18 @@
 }
 .cntact1-form-btn{
     background: #ED1C24;
-    width: 20%;
-    height: 3%;
-    text-align: center;
-    padding-bottom:  30px;
-    margin-left: 2.5vw;
-    margin-top: 1vw;
+    width: 25%;
     border: none;
-    color: #FFFFFF;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    height: 5vh;
+}
+.cntact1-form-btn:hover{
+
+    color: black;
 }
 .cntact1-from-shd{
     font-size: 20px;

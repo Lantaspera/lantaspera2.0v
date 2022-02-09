@@ -7,10 +7,10 @@ import { Container } from '@mui/material';
 
 function ServicesThree() {
     return (
-        <div>
-            <Container>
+     
+            <Container className='srvc3-mcontainer'>
                 <Row className="srvc3-mrow" xs={1} md={2}>
-                    <Col >
+                    <Col className='srvc3-colone' >
                         <Col><h1 className="srvc3-fst-redhed">HOW WE WORK</h1></Col>
                         <Col><h1 className="srvc3-M-hed" data-aos="flip-up">
                             <span className="srvc3-fst-black">We Can Take Your Business To The</span>
@@ -35,7 +35,7 @@ function ServicesThree() {
                     <Col data-aos="fade-left">< Image className="srvc3-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638741383/image_7_1_ienlxk.png" fluid /></Col>
                 </Row>
             </Container>
-        </div>
+ 
     )
 }
 

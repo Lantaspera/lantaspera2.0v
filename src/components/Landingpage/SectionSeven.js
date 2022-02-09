@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function SectionSeven() {
     return (
         <div className="sctn7-footer-main"  >
-            <Container >
+            <Container className="sctn7-footer-maincontainer">
                 <Row xs={1} md={3}>
                     <Col className="sctn7-img">  <svg width="200" height="35" viewBox="0 0 217 43" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_534_376)">
@@ -90,7 +90,7 @@ function SectionSeven() {
 
                 </Row>
                 <Row>
-                    <Col><p className="sctn7-footertag">2021 © Lantaspera Technology. Develop by Lantaspera</p></Col>
+                    <Col><p className="sctn7-footertag">2022 © Lantaspera Technology. Developed by Lantaspera</p></Col>
 
                 </Row>
             </Container>

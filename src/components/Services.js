@@ -15,7 +15,7 @@ function Services() {
   }, [])
 
   return (
-    <div className="services-main-div">
+    <div className="services-main-div" >
 
       <ServiceOne />
       <ServiceTwo />
