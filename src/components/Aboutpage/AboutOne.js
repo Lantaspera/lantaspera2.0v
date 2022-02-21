@@ -12,12 +12,12 @@ function AboutOne() {
 
     return (
 
-        <Container fluid className="abt-two-mdiv">
+        <Container className="abt-two-mdiv">
             
                 <Row xs={1} md={2}>
-                    <Col md={4} data-aos="fade-right">< Image className="abt1-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638173324/image_5_jowfs4.png" fluid /></Col>
+                    <Col  className="abt1-first-img"  data-aos="fade-right">< Image src="https://res.cloudinary.com/lanta/image/upload/v1638173324/image_5_jowfs4.png" fluid /></Col>
 
-                    <Col md={6} className="abt1-sec-mdiv" data-aos="fade-left"  >
+                    <Col  className="abt1-sec-mdiv" data-aos="fade-left"  >
 
                         <Col ><h1 className="abt1-red-heading">KNOW MORE ABOUT SHOP</h1></Col>
                         <Col > <h1 className="abt1-big-heading">Trusted web services provider</h1></Col>

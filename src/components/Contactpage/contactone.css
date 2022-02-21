@@ -1,22 +1,22 @@
 .cntct1-red-hd{
     color: rgba(237, 28, 36, 1);
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 600;
-    margin-top:3vw;
+    
 }
 .cntct1-mhd-1{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 .cntct1-mhd-2{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 700;
     color: rgba(237, 28, 36, 1);
 }
 .cntct1-tagline{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
 }
 .cntct1-icon-div{
     margin-top: 3vw;
@@ -25,23 +25,24 @@
 
 .cntct1-tagline-f{
     color: rgba(130, 143, 153, 1);
-    font-size: 17px;
+    font-size: 1.1rem;
 }
 
 .cntct1-addrs{
-    font-size: 16px;
+    font-size:1rem ;
     font-weight: 700;
     
 }
 .cntct1-addrs-sub{
-    font-size: 17px;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 .cntact1-form-mdiv{
     background: linear-gradient(223.26deg, #ED1C24 -5.58%, rgba(131, 31, 231, 0.49) 135.72%);
     width: 100%;
     height: 560px;
-    margin-top: 6vw;
+    margin-top: 5vw;
+  
 }
 .cntact1-form-details{
     background: #FFFFFF;
@@ -76,18 +77,25 @@
 }
 .cntact1-form-btn:hover{
 
+    background: #f1afb1;
     color: black;
 }
 .cntact1-from-shd{
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-top: 2vw;
     margin-left: 2vw;
+    font-weight: 600;
 }
 .cntact1-from-mhd{
     margin-left: 2vw;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 450;
 }
 .cntact-one-mdiv{
-    margin-top: 6vw;
+  
+   margin-top: 2vw;
+}
+.cntat-first-col{
+    
+    padding-top: 5vw;
 }
