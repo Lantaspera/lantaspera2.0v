@@ -11,12 +11,12 @@ function GraphicsDesign() {
     }, [])
     return (
         <div>
-            
+
 
             <div className='srvc-sub-sctn-m'>
-            <Row className="dsg1-head-sctn">
-                <Col><h1 className="dsg1-heading">GRAPHIC DESIGN</h1></Col>
-            </Row>
+                <Row className="dsg1-head-sctn">
+                    <Col><h1 className="dsg1-heading">GRAPHIC DESIGN</h1></Col>
+                </Row>
             </div>
             <Row>
                 <Col><p className="dsg1-subtagline"> Our expertise uses perfect designs and color <br />theory for creating fresh communication and

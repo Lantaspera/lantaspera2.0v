@@ -23,6 +23,7 @@ import SectionSeven from './components/Landingpage/SectionSeven';
 
 
 
+
 const App = () => {
 
 
@@ -54,11 +55,11 @@ const App = () => {
           <Route path="/contact" component={Contact}  >
             <Contact />
           </Route>
-          {/* 
 
-        
 
-          
+
+
+
 
 
           <Route path="/webdesign" component={WebDesign} >
@@ -100,10 +101,10 @@ const App = () => {
 
           <Route path="/features" component={AboutTwo}  >
             <AboutTwo />
-          </Route> */}
+          </Route>
 
         </Switch>
-        <SectionSeven/>
+        <SectionSeven />
       </div>
     </Router>
 

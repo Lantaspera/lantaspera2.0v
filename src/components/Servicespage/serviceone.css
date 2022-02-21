@@ -1,27 +1,21 @@
 .srvc1-red-tag{
     margin-right: 2vw;
     font-size: 1.1rem;
- 
-  
-    
 }
 .srvc1-redline-img{
-    
     color:rgba(237, 28, 36, 1);
     width: 8%;
 }
 .srvc1-head1-sctn{
     text-align: start;
     margin-top: 2vw;
-    
-    
 }
 .srvc1-red-heading{
     color: rgba(237, 28, 36, 1);
     font-size: 1.2rem;
     font-weight: 600;
     margin-top:3vw;
-    }
+}
 .srvc1-head-1{
     font-size: 55px;
     font-weight: 700;
@@ -40,11 +34,9 @@
     margin-top: 2vw;
     font-size: 18px;
     font-weight: 400;
-    
 }
 .srvc1-first-img{
     border-radius: 10px;
     margin-top: 6vw;
     margin-left: 4.5vw;
-   
 }

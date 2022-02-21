@@ -10,7 +10,7 @@ function TopCurve() {
 
 
       <Row xs={1} md={2}>
-        <Col  className="abt1-top-col">
+        <Col className="abt1-top-col">
           <h1 className="abt1-red-heading">EAGER TO KNOW MORE</h1>
           <Col><h1 className="cntct1-main-hd">
             <span className="cntct1-mhd-1">About</span>

@@ -1,7 +1,7 @@
 .sctn5-heading{
     font-size: 40px;
     font-weight: 700;
-   margin-left: 15vw;
+    margin-left: 15vw;
 }
 .sctn5-qoution{
     margin-left: 7vw;
@@ -10,7 +10,6 @@
     font-size: 18px;
     margin-left: 15vw;
 }
-
 .sctn5-mainheading{
     font-size: 28px;
     font-weight: 500;
@@ -18,7 +17,6 @@
     color: #fff;
 }
 .sctn5-subsection{
-   
     width: 285px;
     height: 350px;
     margin-top: 1vw;
@@ -28,14 +26,11 @@
     box-sizing: border-box;
     border-radius: 4px;
     margin-bottom: 3vw;
-    
-
 }
 .sctn5-sublogo{
     width: 100px;
     margin-top: 1vw;
- 
-}
+ }
 .sctn5-smallquote{
     width: 12px;
 }
@@ -46,12 +41,9 @@
 }
 .sctn5-designation{
     font-size: 12px;
-
 }
-
 .sctn5-container{
-  
- margin-top: 5vw;
+    margin-top: 5vw;
 }
 .sctn5-sublogo1{
     width: 100px;

@@ -34,7 +34,7 @@ function AboutFour() {
                 <Accordion.Header><h1 className="abt4-accdtion-head" >How can I maintain my website once it is live?</h1></Accordion.Header>
                 <Accordion.Body>
                   Updating your website by posting recent company events, promotions or news will make your business more likeable to your consumers.  If you contact us for maintaining your website we will update your website with fresh informations provided by you.
-              
+
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">

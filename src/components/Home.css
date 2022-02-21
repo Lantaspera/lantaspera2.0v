@@ -1,35 +1,27 @@
 .section-one-landing{
- 
     margin-left: 9vw;
 }
-
 .tag-lanta{
     font-size: 3rem;
     font-weight: 700;
     font-style: normal;
     margin-top: 2vw;
-  
-  
-   }
+}
 .caption-lanta{
-    
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     color: rgba(64, 82, 99, 1);
     text-align: start; 
-   }
+}
 .sectn1-img{
-
-width: 100%;
+    width: 100%;
 }
 .home-page-main{
     margin-right : 0 !important;
     margin-left : 0 !important;
     margin-top: 5vw;
-   
 }
 .section-four-landing{
-   
-    width: 100%;
+   width: 100%;
 }

@@ -11,11 +11,11 @@ function Webdevelopment() {
     }, [])
     return (
         <div>
-            
+
             <div className='srvc-sub-sctn-m'>
-            <Row className="dsg1-head-sctn">
-                <Col><h1 className="dsg1-heading">WEB DEVELOPMENT</h1></Col>
-            </Row>
+                <Row className="dsg1-head-sctn">
+                    <Col><h1 className="dsg1-heading">WEB DEVELOPMENT</h1></Col>
+                </Row>
             </div>
 
             <Row>

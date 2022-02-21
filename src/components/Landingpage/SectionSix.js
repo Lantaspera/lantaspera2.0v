@@ -52,15 +52,8 @@ function SectionSix() {
                   <Form.Label>Message</Form.Label>
                   <Form.Control as="textarea" rows={3} name="fmessage" />
                 </Form.Group>
-
-
-
-
-
-
-                
                 <button className="sctn6-button" onClick={() => { alert('message send sucssesfully'); }}
-                
+
                 >  Send Message</button>
               </Form>
             </Container>

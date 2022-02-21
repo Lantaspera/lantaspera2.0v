@@ -1,6 +1,5 @@
 
 .abt-two-mdiv{
-   
     margin-top: 6vw;
     margin-left: 2vw;
 }
@@ -13,26 +12,21 @@
 .abt1-big-heading{
     font-size: 3rem;
     font-weight: 650;
-
-   
-}
+   }
 .abt1-red-tag{
-    
-      font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 .abt1-main-content{
     font-size: 1.2rem;
     font-weight: 400;
-   color: rgba(0, 0, 0, 1);
-   
-}
+    color: rgba(0, 0, 0, 1);
+   }
 .abt1-foundername{
     font-size:1.2rem;
     font-weight: 700;
     margin-top: 1vw;
 }
 .abt1-ftag{
-    
     font-weight: 500;
     font-size: 1rem;
 }

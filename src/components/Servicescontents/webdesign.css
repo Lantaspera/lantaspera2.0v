@@ -1,38 +1,30 @@
 .dsg1-head-sctn{
-    margin-top: 3vw;
-    background: #ED1C24;
-  padding: 3.5vw;
- 
-
-
+    background: #ec2828;
 }
 .dsg1-heading{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 650;
     text-align: center;
     color: #fff;
-    margin-top: 2vw;
-
- 
+    padding-top: 1vw;
 }
 .dsg1-subtagline{
     font-weight: 500;
-    font-size: 26px;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 3vw;
-    }
+}
 .dsg1-content-sectn{
     font-weight: normal;
     font-size: 16px;
     color: #797979;
     margin-top: 2vw;
     margin-left: 3vw;
-    }
+}
 .dsg1-tct-sctn{
     font-weight: normal;
     font-size: 17px;
     margin-left: 3vw;
-
 }
 .dsg1-image-sectn{
     margin-left: 5vw;
@@ -43,9 +35,5 @@
 }
 .dsg1-heading-two{
     text-decoration:  underline red;
-    font-size: 30px;
-    margin-left: 2vw;
-}
-.srvc-sub-sctn-m{
-    margin-top: 10vw;
+    font-size: 1.5rem;
 }

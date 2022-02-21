@@ -8,7 +8,7 @@ import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
+
     breakpoint: { max: 4000, min: 3000 },
     items: 5
   },
@@ -50,16 +50,16 @@ function SectionFive() {
             <Col>
 
 
-            <div className="sctn5-subsection" data-aos="zoom-in">
-              <Row>
-                <Col>
-                  <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1633623605/rdionz_otpa0j.jpg" fluid /></Col>
-                  <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
-                  <Col><p className="sctn5-cmpny-tag">For the purpose of developing webpage for my startup quickly , I was searching for a  developer community . Lantaspera is one of the best  developers I have come across. They are well organised,creative and flexible .</p></Col>
-                  <Col><h1 className="sctn5-name-founder">Dr.Nabeel M Naasar</h1></Col>
-                  <Col> <p className="sctn5-designation">Co-Founder -Rdionz Biomobility</p></Col>
-                </Col>
-              </Row>
+              <div className="sctn5-subsection" data-aos="zoom-in">
+                <Row>
+                  <Col>
+                    <Col> < Image className="sctn5-sublogo" src="https://res.cloudinary.com/lanta/image/upload/v1633623605/rdionz_otpa0j.jpg" fluid /></Col>
+                    <Col>< Image className="sctn5-smallquote" src="https://res.cloudinary.com/lanta/image/upload/v1637694838/rvh0toujmiyimzd4cqbs.png" fluid /></Col>
+                    <Col><p className="sctn5-cmpny-tag">For the purpose of developing webpage for my startup quickly , I was searching for a  developer community . Lantaspera is one of the best  developers I have come across. They are well organised,creative and flexible .</p></Col>
+                    <Col><h1 className="sctn5-name-founder">Dr.Nabeel M Naasar</h1></Col>
+                    <Col> <p className="sctn5-designation">Co-Founder -Rdionz Biomobility</p></Col>
+                  </Col>
+                </Row>
 
               </div>
 

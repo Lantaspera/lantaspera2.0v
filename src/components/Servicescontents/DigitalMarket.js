@@ -13,12 +13,12 @@ function DigitalMarket() {
 
     return (
         <div>
-    
-            
+
+
             <div className='srvc-sub-sctn-m'>
-            <Row className="dsg1-head-sctn">
-                <Col><h1 className="dsg1-heading">DIGITAL MARKETING</h1></Col>
-            </Row>
+                <Row className="dsg1-head-sctn">
+                    <Col><h1 className="dsg1-heading">DIGITAL MARKETING</h1></Col>
+                </Row>
             </div>
             <Row>
                 <Col><p className="dsg1-subtagline">    Our team experts establishes your online identity,<br />  build trust,stimulate customer interactivity and
