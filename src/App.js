@@ -19,6 +19,7 @@ import ErrorPage from './components/ERROR/ErrorPage';
 import SectionFive from './components/Landingpage/SectionFive';
 import AboutFour from './components/Aboutpage/AboutFour';
 import AboutTwo from './components/Aboutpage/AboutTwo';
+import SectionSeven from './components/Landingpage/SectionSeven';
 
 
 
@@ -34,27 +35,30 @@ const App = () => {
   return (
 
     <Router basename='/built' >
-      <div>
+      <div className='App'>
         <NavbarTab />
 
 
         <Switch>
 
-          <Route path="/" exact component={Home}  >
+          <Route path="/home" exact component={Home}  >
             <Home />
+          </Route>
+          <Route path="/services" component={Services}  >
+            <Services />
           </Route>
 
           <Route path="/about" component={About} >
             <About />
           </Route>
-
-          <Route path="/services" component={Services}  >
-            <Services />
-          </Route>
-
           <Route path="/contact" component={Contact}  >
             <Contact />
           </Route>
+          {/* 
+
+        
+
+          
 
 
           <Route path="/webdesign" component={WebDesign} >
@@ -96,9 +100,10 @@ const App = () => {
 
           <Route path="/features" component={AboutTwo}  >
             <AboutTwo />
-          </Route>
+          </Route> */}
 
         </Switch>
+        <SectionSeven/>
       </div>
     </Router>
 

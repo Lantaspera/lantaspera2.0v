@@ -20,7 +20,7 @@ function Services() {
       <ServiceOne />
       <ServiceTwo />
       <ServicesThree />
-      <SectionSeven />
+ 
       
 
     </div>

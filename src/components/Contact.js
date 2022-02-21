@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactOne from './Contactpage/ContactOne'
-import SectionSeven from './Landingpage/SectionSeven'
 import { useEffect } from 'react'
+import { Container } from 'react-bootstrap'
 
 function Contact() {
 
@@ -9,10 +9,10 @@ function Contact() {
         window.scrollTo(0, 0)
       }, [])
     return (
-        <div>
-           <ContactOne/> 
-           <SectionSeven/>
-        </div>
+      <Container>
+
+          <ContactOne/>
+      </Container>
     )
 }
 

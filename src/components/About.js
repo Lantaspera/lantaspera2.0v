@@ -18,11 +18,10 @@ function About() {
   return (
     <div className='aboutpge' >
         <TopCurve />
-        <AboutOne />
-        <AboutTwo />
-        <AboutThree />
-        <AboutFour />
-        <SectionSeven />
+        <AboutOne/>
+       <AboutTwo/>
+       {/* <AboutThree/> */}
+       <AboutFour/>
       
     </div>
   )

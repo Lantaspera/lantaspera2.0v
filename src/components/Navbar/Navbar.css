@@ -1,7 +1,4 @@
 
-
-
-
 .home,
 .services,
 .contact,
@@ -9,10 +6,12 @@
 text-decoration: none;
 font-size: 17px;
 color: rgba(64, 82, 99, 1);
-padding: 10px 20px;
-margin: 0 10px;
+padding: 0 0 20px;
+margin: 0 25px;
 cursor: pointer;
 text-decoration: none;
+margin-left: 5vw;
+
 
     
 }
@@ -27,6 +26,11 @@ text-decoration: none;
 .active{
     color:red;
    }
-.nav-main-div-r{
-    margin-bottom: 6vw;
+.demo-void{
+    width: 20%;
+    
+}
+.hai{
+margin-top: 2vw;
+   margin-left: 40%;
 }

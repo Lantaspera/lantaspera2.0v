@@ -7,10 +7,10 @@ import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 function ServiceOne() {
     return (
       
-            <Container className="srvc1-mdiv" fluid >
+            <Container className="srvc1-mdiv"  >
                 <Row xs={1} md={2} className='srvc1-m-row' >
                     <Col data-aos="fade-right">
-                    <Container>
+                   
                        <Col> <h1 className="srvc1-red-heading">CAST YOUR EYES TO KNOW MORE ON</h1></Col>
                         <Col><h1 className="srvc1-head1-sctn">
                             <span className="srvc1-head-1">What We </span>
@@ -29,8 +29,7 @@ function ServiceOne() {
                             <p className="srvc1-cntnt-para"><CheckOutlinedIcon color="error" fontSize="small" />   Dynamic and proven approach. </p>
                             <p className="srvc1-cntnt-para"><CheckOutlinedIcon color="error" fontSize="small" />    Leverage Social Media Marketing.</p>
                         </Col>
-                    </Container>
-
+                 
                     </Col>
                     <Col data-aos="fade-left">< Image className="srvc1-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638380595/image_6_ijof1n.png" fluid /></Col>
 

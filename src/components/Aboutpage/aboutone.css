@@ -1,71 +1,42 @@
-.abt1-first-img{
-margin-top: 10vw;
-margin-left: 5vw;
-    border-radius: 5%;}
+
+.abt-two-mdiv{
    
+    margin-top: 6vw;
+    margin-left: 2vw;
+}
 .abt1-red-heading{
     color: rgba(237, 28, 36, 1);
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 700;
-
-
-   
-
-
+    margin-top: 1vw;
 }
 .abt1-big-heading{
-    font-size: 55px;
+    font-size: 3rem;
     font-weight: 650;
 
    
 }
-
-
-.abt1-sec-mdiv{
-    margin-top: 1vw;
-    margin-left: 10vw;
-
-  
-}
 .abt1-red-tag{
-  margin-right: 2vw;
-    font-size: 18px;
- ;
-  
     
-}
-.abt1-redline-img{
- margin-left: 2vw;
-    color:rgba(237, 28, 36, 1);
-    width: 8%;
-}
-.abt1-head1-sctn{
-    
-    margin-top: 2vw;
-    
-    
-
-    
+      font-size: 1.2rem;
 }
 .abt1-main-content{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 400;
    color: rgba(0, 0, 0, 1);
-   margin-top: 2vw;
+   
 }
 .abt1-foundername{
-    font-size: 20px;
+    font-size:1.2rem;
     font-weight: 700;
-    margin-left: 3vw;
     margin-top: 1vw;
 }
 .abt1-ftag{
-    margin-left: 3vw;
-    font-weight: 500;
-    font-size: 18px;
-}
-.abt1-head1-sctn{
-  
-    margin-top: 2vw;
     
+    font-weight: 500;
+    font-size: 1rem;
+}
+.abt1-first-img{
+    padding-left: 7vw;
+    padding-top: 1vw;
 }

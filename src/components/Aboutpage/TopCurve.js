@@ -10,7 +10,7 @@ function TopCurve() {
 
 
       <Row xs={1} md={2}>
-        <Col md={5} className="abt1-top-col">
+        <Col  className="abt1-top-col">
           <h1 className="abt1-red-heading">EAGER TO KNOW MORE</h1>
           <Col><h1 className="cntct1-main-hd">
             <span className="cntct1-mhd-1">About</span>
@@ -22,7 +22,7 @@ function TopCurve() {
             Our  workspace is open and free with the warmness of intimacy. We are a fast-paced creative team
             without any chaos or confusion and also perfectionists who don't know when to quit.</p></Col>
         </Col>
-        <Col md={6}><svg className="abt1-topbar2" viewBox="0 0 460 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <Col ><svg className="abt1-topbar2" viewBox="0 0 460 390" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_447_193)">
             <path data-aos="fade-up"
               data-aos-anchor-placement="top-bottom" d="M234.88 276.932C234.88 273.369 233.464 269.951 230.945 267.432C228.425 264.913 225.008 263.497 221.445 263.497C217.882 263.497 214.465 264.913 211.946 267.432C209.426 269.951 208.011 273.369 208.011 276.932H181.973V355.877H260.918V276.932H234.88Z" fill="#AFB9DF" />

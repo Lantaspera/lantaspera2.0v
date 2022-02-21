@@ -32,7 +32,7 @@ function ServicesThree() {
 
 
                     </Col>
-                    <Col data-aos="fade-left">< Image className="srvc3-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638741383/image_7_1_ienlxk.png" fluid /></Col>
+                    <Col data-aos="fade-left">< Image className="srvc3-first-img" src="https://res.cloudinary.com/lanta/image/upload/v1638741383/image_7_1_ienlxk.png"/></Col>
                 </Row>
             </Container>
  
