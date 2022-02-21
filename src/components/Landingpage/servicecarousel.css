@@ -2,40 +2,37 @@
     width: 300px;
     margin-top: 4vw;
 }
-
-  .section2-details1{
+.section2-details1{
     padding-left: 12%;
     font-size:22px;
     font-weight: 600;
     margin-top: 1vw;
-
-  }
+}
   .section2-details2{
     color: rgba(124, 133, 149, 1);
     font-size: 16px;
     margin: 1vw;
-  }
+}
   .heading-sectn2{
     text-align: center;
     font-size: 30px;
     margin-top: 10vw;
-  }
+}
   .sctn2-cardheading{
     margin-top: 1vw;
     text-align: center;
-  }
+}
   .sctn2-cardtext{
     text-align: center;
     color: rgba(124, 133, 149, 1);
     margin-top: 2vw;
-  }
+}
   .sctn2-atag{
     color: rgba(237, 28, 36, 1);
     text-decoration: none;
     text-align: start;
     margin-top: 3.5vw;
-
-  }
+}
   .sctn2-icon-div{
     width: 100px;
     height: 100px;
@@ -50,35 +47,29 @@
     cursor: pointer;
     box-shadow: rgba(237, 28, 36, 1);
     margin-top: .5vw;
-
-  }
-
+}
  .sctn2-icon{
-  
-   color:red;
- }
-
+    color:red;
+}
  .sctn2-card-div{
-   width: 300px;
-   height: 350px;
-   margin-top: 5vw;
-   border: 1px solid #C4C4C4;
-   margin-left: 5%;
-   cursor: pointer;
-   
- }
+    width: 300px;
+    height: 350px;
+    margin-top: 5vw;
+    border: 1px solid #C4C4C4;
+    margin-left: 5%;
+    cursor: pointer;
+}
  .sctn2-card-div:hover{
-  
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
- }
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
  .sctn2-link-tag{
      text-decoration: none;
      color: black;
-   }
+}
  .sctn2-link-tag:hover{
     color: black;
-   }
-   .sctn2-main-div{
+}
+ .sctn2-main-div{
      margin-top: 5vw;
      width: 100%;
-   }
+}

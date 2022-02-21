@@ -1,10 +1,7 @@
 import React from 'react'
 import "./About.css"
-import { Container } from 'react-bootstrap'
 import AboutOne from './Aboutpage/AboutOne'
 import AboutTwo from './Aboutpage/AboutTwo'
-import SectionSeven from './Landingpage/SectionSeven'
-import AboutThree from './Aboutpage/AboutThree'
 import AboutFour from './Aboutpage/AboutFour'
 import TopCurve from './Aboutpage/TopCurve'
 import { useEffect } from 'react'
@@ -20,7 +17,6 @@ function About() {
         <TopCurve />
         <AboutOne/>
        <AboutTwo/>
-       {/* <AboutThree/> */}
        <AboutFour/>
       
     </div>

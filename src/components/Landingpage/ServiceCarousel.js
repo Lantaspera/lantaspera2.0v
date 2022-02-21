@@ -20,12 +20,12 @@ import { BiMessageRoundedDots } from "react-icons/bi";
 function ServiceCarousel() {
     return (
         <Container className='sctn2-main-div' fluid>
-    
-                <Row  className="section-two" data-aos="fade-up">
-                    <Col data-aos="fade-up"> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
-                </Row>
 
-    
+            <Row className="section-two" data-aos="fade-up">
+                <Col data-aos="fade-up"> <h2 className="heading-sectn2">Integrated solutions designed for small business.</h2></Col>
+            </Row>
+
+
 
             <Container   >
                 <Row xs={1} md={3} >
@@ -34,7 +34,7 @@ function ServiceCarousel() {
                         data-aos-duration="1000">
                         <Row>
                             <Col>
-                                <Card  className="sctn2-card-div" ><Link className='sctn2-link-tag' to="/services">
+                                <Card className="sctn2-card-div" ><Link className='sctn2-link-tag' to="/services">
 
 
                                     <Card.Body>
@@ -50,7 +50,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                                </Col>
+                            </Col>
 
                         </Row>
                     </Col>
@@ -58,7 +58,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="4000" >
                         <Row>
-                        <Col>
+                            <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -75,15 +75,15 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                                </Col>
+                            </Col>
 
                         </Row>
                     </Col>
 
                     <Col data-aos="fade-up"
                         data-aos-duration="8000" >
-                        <Row>  
-                        <Col>
+                        <Row>
+                            <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -100,7 +100,7 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                                </Col>
+                            </Col>
 
                         </Row></Col>
                 </Row>
@@ -112,7 +112,7 @@ function ServiceCarousel() {
                     <Col data-aos="fade-up"
                         data-aos-duration="1000" >
                         <Row>
-                        <Col>
+                            <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -130,12 +130,12 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                                </Col>
+                            </Col>
 
                         </Row></Col>
                     <Col data-aos="fade-up"
                         data-aos-duration="4000" ><Row>
-                              <Col>
+                            <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
@@ -153,19 +153,19 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                                </Col>
+                            </Col>
 
                         </Row></Col>
 
-                        <Col data-aos="fade-up"
+                    <Col data-aos="fade-up"
                         data-aos-duration="4000" ><Row>
-                              <Col>
+                            <Col>
                                 <Card className="sctn2-card-div"><Link className='sctn2-link-tag' to="/services">
 
 
                                     <Card.Body>
 
-                                        <Col> <button className="sctn2-icon-div"> <BiMessageRoundedDots  className="sctn2-icon" size={50} /></button></Col>
+                                        <Col> <button className="sctn2-icon-div"> <BiMessageRoundedDots className="sctn2-icon" size={50} /></button></Col>
                                         <Card.Title className="sctn2-cardheading">Social Media Campaign </Card.Title>
                                         <Card.Text className="sctn2-cardtext">
                                             A social media campaign is a coordinated
@@ -177,15 +177,15 @@ function ServiceCarousel() {
                                     </Card.Body></Link>
                                 </Card>
 
-                                </Col>
+                            </Col>
 
                         </Row></Col>
-                   
+
                 </Row>
             </Container>
-</Container>
+        </Container>
 
-        
+
     )
 }
 

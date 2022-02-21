@@ -11,13 +11,7 @@ margin: 0 25px;
 cursor: pointer;
 text-decoration: none;
 margin-left: 5vw;
-
-
-    
 }
-
-
-
 .home:hover,
 .services:hover,
 .contact:hover,
@@ -25,12 +19,11 @@ margin-left: 5vw;
 }
 .active{
     color:red;
-   }
+}
 .demo-void{
     width: 20%;
-    
 }
-.hai{
-margin-top: 2vw;
-   margin-left: 40%;
+.nav_link_section{
+    margin-top: 1vw;
+    margin-left: 40%;
 }

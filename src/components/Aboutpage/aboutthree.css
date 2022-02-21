@@ -1,24 +1,20 @@
 .abt3-head-1{
-    
    color:#ED1C24;
    font-size: 55px;
    font-weight: 600;
 }
 .abt3-head-2{
-    
     font-size: 55px;
     font-weight: 600;
 }
 .abt3-head1-sctn{
     text-align: center;
     margin-top: 6vw;
-    
 }
 .abt3-sub-heading{
     font-size: 48px;
     font-weight: 650;
     margin-top: 2vw;
-
 }
 .abt3-sub-tag{
     text-align: start;
@@ -32,7 +28,6 @@
     border-radius: 8px;
     margin-top: 4vw;
     margin-left: 2vw;
-   
 }
 .abt3-cardimage{
     width: 259px;
@@ -72,7 +67,6 @@
 .abt3-sub-container{
     display: flex;
     align-items: center;
-
 }
 .abt3-card-mdiv1{
     width: 260px;

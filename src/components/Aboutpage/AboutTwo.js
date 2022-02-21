@@ -70,7 +70,7 @@ function AboutTwo() {
 
             </Row>
         </Row>
-           
+
     )
 }
 
